@@ -1,3 +1,4 @@
+// Cloudflare Pages deployment refresh; no functional changes.
 (()=>{"use strict";
 function init(){
  const forms=[...document.querySelectorAll("form.mw-contact-form")];
