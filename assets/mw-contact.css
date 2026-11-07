@@ -1,0 +1,23 @@
+/* Maplewood Tree Works contact form */
+.mw-contact-form,.mw-contact-form *{box-sizing:border-box}
+.mw-contact-form{max-width:100%;font-family:inherit}
+.mw-contact-form .mw-field{display:block;width:100%;margin:0 0 14px}
+.mw-contact-form .mw-field input,.mw-contact-form .mw-field textarea{width:100%;max-width:100%;display:block;margin:0;padding:13px 15px;background:#fff;color:#232a31;border:1px solid #ccd2d8;border-radius:4px;font:inherit;font-size:16px;line-height:1.5}
+.mw-contact-form .mw-field textarea{min-height:125px;resize:vertical}
+.mw-contact-form .mw-field input:focus-visible,.mw-contact-form .mw-field textarea:focus-visible{outline:2px solid #36729e;outline-offset:2px}
+.mw-contact-form .mw-field input::placeholder,.mw-contact-form .mw-field textarea::placeholder{color:#727b82;opacity:1}
+.mw-contact-form .mw-sr{position:absolute;clip:rect(0 0 0 0);width:1px;height:1px;overflow:hidden;white-space:nowrap}
+.mw-contact-form .mw-trap{position:absolute!important;left:-9999px!important;width:1px!important;height:1px!important;overflow:hidden!important}
+.mw-contact-form .mw-turnstile{margin:0 0 14px;min-height:0}
+.mw-contact-form .mw-send{display:inline-block;padding:13px 25px;background:#28352d;color:#fff;border:0;border-radius:4px;font:inherit;font-weight:700;cursor:pointer}
+.mw-contact-form .mw-send:hover{filter:brightness(1.15)}
+.mw-contact-form .mw-send:disabled{opacity:.65;cursor:wait}
+.mw-contact-form .mw-status{margin:8px 0 0;font-size:14px;line-height:1.5}
+.mw-contact-form .mw-status:empty{display:none}
+.mw-contact-form .mw-status.is-error{color:#b52d2d}
+.mw-contact-form .mw-form-fields[hidden],.mw-contact-form .mw-confirmation[hidden]{display:none!important}
+.mw-contact-form .mw-confirmation{padding:40px 20px;min-height:245px;border:1px solid #c7e2d2;background:#f2faf4;border-radius:8px;text-align:center;color:#25513b;display:flex;flex-direction:column;align-items:center;justify-content:center}
+.mw-contact-form .mw-success-check{display:grid;place-items:center;width:58px;height:58px;border-radius:50%;background:#d9f1e1;color:#168150;font:700 31px/1 system-ui}
+.mw-contact-form .mw-confirmation h3{margin:16px 0 10px;color:#24503b;font-size:22px}
+.mw-contact-form .mw-confirmation p{margin:0;color:#365947;font-size:15px}
+.wpforms-container:has(>.mw-contact-form){margin:0;max-width:100%}
