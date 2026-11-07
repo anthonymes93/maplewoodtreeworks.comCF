@@ -1,0 +1,547 @@
+{
+  "observerUrl": "./preview/dist/testimonials-slider-observer.js",
+  "preferences": {
+    "previewUpdateTimeout": 0,
+    "previewDefaultBgColor": "white",
+    "fileUpload": false,
+    "enableCustomCSS": true
+  },
+  "settings": {
+    "tabs": [
+      {
+        "id": "layout",
+        "name": "Layout",
+        "active": true
+      },
+      {
+        "id": "content",
+        "name": "Content"
+      },
+      {
+        "id": "style",
+        "name": "Style"
+      },
+      {
+        "id": "advanced",
+        "name": "Advanced"
+      }
+    ],
+    "properties": [
+      {
+        "id": "template",
+        "name": "Testimonial Template",
+        "tab": "layout",
+        "type": "select-visual",
+        "defaultValue": "tiledClassic",
+        "select": {
+          "options": [
+            {
+              "value": "tiledClassic",
+              "name": "Tiled Classic",
+              "img": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAABMCAYAAAHSE4+SAAAABGdBTUEAALGPC/xhBQAAAxNJREFUeAHt3c9u0zAcwPG4TJzGc3BFYg8AV/6ocKm0ZjwFiAvihDiA4C3WTOqFVmhcQdyQ4AF4DjghaPb7TU3lpnUX13Vx028vcR07Tj52ai9xsizjY1wEw+Hwmq77MBr/PSsGznTOFf3+yXmZlfeqAlZtpErDEoEFgeN+XmpjWlhRi3C2RN2AnZaWaGsQTkzA2Y5d+9nv59+lgd+WjD+KYnDkSrcz8WsIzPc19SPljK+L8B0BBBDYuIAOtuoDrpBCOiGZmw4dQ8qInte7N7yK37c3DKqC6DwUgAACCCCAAAIIIBBXwHs46rs7eudB7zpU+R4/6h70er1/Mqz9JXGHVbxr6Tu8dW3HFX/gWrGp+NFo/M3e1vT7kcnMV/uOiqaJfbD2fhCeCkQ/Ber3znzlaRW+Yp7pk2oB1LZn7ZEcAQQQQAABBBBAAAEEEEAAAQQQQAABBLwFol8UPc5PPmdleedyz4z5cjY4vavhqyY8XabPst9yofTGNBxlEf3O0OzgdfcrCAmmcgU4PoCj3hZagDHn0joeOJJHi44PIM1+VvMaXvJJpTUs2TWiWi8QvxeoPc7lJbqF34Wkp8uaMoteQV4V0sbE0YUXujsfxS2cAvG7wYYHLFNmPhXF6f2GyUmGAAIIIIAAAggggAACCCCAAAIIIIAAAggggAACCCCAAAIIIIAAAggggAACCCCAgEMg+txAR7kbjdZXdI3HH5+W5aQnb56/KQf105jOsNt9+F5f1WUXJu8yei1vrXomcdft+DXCf2Q63zuZzvdijbzJZEl6enATpTx/8lzfzzYpJ2/03w5InkNd6neN1/VNtrOvaZKZHLtuBUhFv1yVd7r+rZXmloRXnv37NFF35xtAx3Re6dluVfBcUNfbEczAtjWydjyB4TkGmPtfYDOOLTyLMCuLAAKpCOz8XwGhbygNqYh9GiuEOJE3YQF+AUIqpwXjhp2/DhBSf6F5eYw5VJD8/12ALmBZFbTgp33ZYRGHAAIIIIAAAggggAACCCCAAAIIIIAAAggggAACCCCAAAL7JHABrAzgCmyBL24AAAAASUVORK5CYII="
+            },
+            {
+              "value": "tiledBalloon",
+              "name": "Tiled Balloon",
+              "img": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAABMCAYAAAHSE4+SAAAABGdBTUEAALGPC/xhBQAABR5JREFUeAHtnb1PFEEUwHfugEaIRBujjf+DhYkVhVp4RqAh4e6gITkTaiOFiQQTC401CbTcHQkNYoREpKA3VDTyB3ixxHAGg9ytb/CGLHuzN7u387E7+0jIfL2Zee83b2eH2dnFcUz/kCAFposl11+2Xq8FyvtlHX8D/jSrMMAivDCoEk82MK9YnKkEFkJBrlchLXOd9opIBstjEgj0LL8PRPLCKEqZ16CntqXSzEv621MIC9NPINAPg0zzXyE8OWVXDe1MpICo3K9wz3uCX5ilo3bC6vHCyEPgbYRepG23/S5Hcgu12tp7b1k24sVieVvmcGSDGlqZOAKR5oFQHk+cxfVa7U1YS4Vr07ANXcq5ztJlPEQk8lRM8rlCfW1th9d2KEK+ipEJ5Fw30rD5+utKRibQarufwdKuhvrNiExA2BE4oVDGGgHqdP04nheA/CHwto5x1QRk+IBqHbF9JIAEkAAS6ElA6trO31PcdQJrjxDSrteqeZaWGUZej/bTeT5Hnlar1e2odRlA13WVrZm0AJC9iI8Kspe8FgBeBUSbh+VyuUCBeeuojGsHwNw6yCgwvquIzgFdmZIylE6CIh2ni+VdeCj2yHHI1/V69bFIXkW5sskljLI5QvZArtkJw1SRLmPMA+BSOAFrhj0WNWF+GPGktUSNeQA1lm7tg5XgAbkFE8ZTwlo9gDPq3FEW3Sm4lfrM1AqA6UgfbbiO+4SlWajTcNYnhkgACSABJIAEkAASQAJIAAlkk4CyP4amS6XXcAJ6SQZWlX8kKdsPIA5JxWkJZQBU7uXL8CrWhpZd4X5cWNf2uDIPYISTHmrxANGzAB4k3vMBnlzcPC0AknwJaAHAPKDXUUc2kkzWKg9gxrmtNj3nzZKJCJVNgiqf58kkpwwAbHtLWQXKNJbXlrKlMK8zb16lUhk8af4+o3kjw9eGVldX/3rLMxGfm5u7MTs7e9OkscouAZFRGxsb+dPTP7vn560vNC6SV1Wu5TbIU37z49Y5y+/EjVyOxjyAGW86RACmRmByYnwAfP6A/tK4KT0y36/WiYet8wXUjRyVEehkb7FWD2AYuZ5AyPZ6rfqUyegKjQCgxnkhwAbqTr1eLegyGvtBAkgACSABJIAEkAASQAJIAAkgASSABJAAEkACSAAJZI+Ase3guKg7h5CfwxmcW6aOo9LzP9D3T3jxdiXKJ/zi2i6zfiodAJ4l/AAIt2WCkNBWA85B3pHQjtYm0nosIGmDTwctiToJncma4whhDt8KaYQU0HWAP6Q6scSscQCdh491nd6ONbIhK1vjAP1+oywkpytiNs0AaV0DXBkQmmgT0v3ZrS4pzPATsGYGwFuAf2jDpa1xAJ65Mm4LNk33PEZWOwAs1mJ/f9+mBR/PAdK6BmjwjDGcl0SdhEhS6QAXO27//3lFw+TrmJ2+G7AVvJjGXUDqHancCha6dQiB+fn54ePjX/vwp8M9gHAwOnp9bHl5uRmiKoogAXsIZG4GoG/kbm592nNcd6xrGAnZnxx/9nBqaqrVVWZphrHXk03xHBwc+gZ9Pwjo/+7R96PC4eHhakC5ddmpXARaNwoGDcqcA0xMjN93YKrnMof8i3JuIWYiAQsJWLsIhA/1v4UvFr2AMRuKOW5n8AbzB3iD+VXMdhJZPXO3gESOgkGlrJ0B/EyD/nWHX46m8ZsFPCqYZyWBzMwAbPR6zgSGPtXCdMMQCSABJIAEkAASQAJIAAkgASSABJCAYgL/AAvPaBFjVmggAAAAAElFTkSuQmCC"
+            },
+            {
+              "value": "tiledPostcard",
+              "name": "Tiled Postcard",
+              "img": "data:image/png;base64,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"
+            },
+            {
+              "value": "singleClassic",
+              "name": "Single Classic",
+              "img": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAABMCAYAAAHSE4+SAAAABGdBTUEAALGPC/xhBQAAA0JJREFUeAHt3T1v00AYwHE7pWWBb0KhEkisDEyAaFgikZSvARKoUwUSfARW6lTKUoooYmBgYYIu+KPQpYjW3FPlouM4x0+ca+Mm/yy27/1+Pr/FsZMkfFKX4HG3V+z0s1SmbnhoXtKFwk/DpABNIeUF9DY+lkYSMY8Co9E0yShMk/RTv799X0BGBVgdOwJNolcm0Qsbrp7aAtQZSIjA1AJLoRIGg8HS8vLK9zzP34biY4Zd0hRWuW2k6f5Otv1AU5af5r8t2U8gy24Dxh6MQpkJQwABBBCoI9Dt9n7IAalO3knzBA9G5urk5u77vT+mMNXFirbS0HEk2ABzhDpot9dvmwyqskMFqzJKD6sSmiPhkUmz4qabpkK3HJlv+QGB5VHlckYes3KpK7gKAo1IYlccqoMwBBBAAAEEEEAAgQUTqDwftx7uN1QS5p6d+nE2z0ynyq/s1Kfj4zrjYoxLR1wDBdSbwLi2hy5b/fS1b934BbGMAAIIIIAAAggggAACCCCAAAIIIIAAAggggEBtAfUP4nq9J0+vra5+vnF97TjPf36rXWPDMqruC0jnT4qT17btrbT1LMvevZHlbndjv0iKezauKVPt3SrNT+US0/lNt2P+sht30eZV9wbNGt/yRsCW7ah9mscuX7SpahOQTg03g03BsMNfwmNtAtohK3XyiSigHgFldZoR8NLsBJ+XxQ/Df5s1fLkizUyiVTvBmbTsnCpV7QQr2rJWFs92XSbToPAY+4B/ToRY6w1auzQFAQQQQAABBBBAAAEEEEAAAQQQQAABBBBAAAEEEEAAAQQQQAABBBBAAAEEEEAAAQQWTWDq34a6YPIa7t29D1+Sorjjhp/Op+nXR+sP73Y6nWM/LtZTBn6587js/slMjP5FHQDyLnZ5HXpZw0xlB/1+dqssnvDzF4jxfMDUrWYPMAGh8s2Y2hKjDgD5H4Jxh4C2OQSYPYC2bTNJF3sXO5NOUCkCCCCgEoh6EqiqMZDIvIL3lwm+EoiqE3RonlK7WicjeRBYOIFG7AFqXQVEPhteuDU/7HDUq4CzQOSs/CxUKRMBBBBAAAEEEEAAAQQQQAABBBBAAAEEEEAAAQQQQAABBOZf4C85kNMVIk+3hgAAAABJRU5ErkJggg=="
+            },
+            {
+              "value": "singleSpotlight",
+              "name": "Single Spotlight",
+              "img": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAABMCAYAAAHSE4+SAAAABGdBTUEAALGPC/xhBQAAAyZJREFUeAHt3b9u00AcwHFf+meCd+ABKLBVYmJgooikSyQSeAtUBmY2noC5TaUsTZCKGBg6wIAQC17oc1CpEqIyd1BLluNLnLP9O3z+RorsnM/353Pny9m10ygK//V0NE4araWypV6U8/HkyBrflg7h7RcYj58fmHejNbH2rHxPpBc22g4kXk1go8ru5ii7vbPz6e6de5dx/P1zlbTY10lgNHp2mh9ynBJiJwQQQMBVwAxCVQeinmvm7FeXgHVeW5SB+fJJouRR0bY0jPlvKiGyrOMwFCkomSCAAAIIIICARaDS1RlLmqWDr6/ufNBXd658Xd1ZazpaumYlIup51E8d7UYm6oWeyt7MfBZZ9XZKZCrbU72XupYXZumj8kbYqQeUOTERab5cJi4nQ956QK7sfPQl4HQIuBa2YOArTMqlKxcmVCJQFCAtj/VillKnx0eHj9N4LBFAAAEEEEAAAQQQQAABBBBAAAEEGhDwckXI1GM6nW7MZvMvZn0w6O8Oh8Mrsy792pTOMM3vZDb/nVv30hidvywOQNoNpZf7g/6m7vPfzNusS+dPftcCTgOP9bq+R1YVqfeTyeGexyK0M+tgekDk+FclJ4CybV3HoULXLqtNPDeBRg+BfJFKHhJe7hXKl7Uzn0V7gFFddn+R5I0RaQuLA6QZZw8HRvpUhSUCCCCAAAIIIIAAAggggAACCCCAAAIIIIAAAggggAACCCCAAAIIIFCXgLfbQuqqwLrpmKczTubvPkZJ8mBhX6XO9vtPHvp6YmOhPAIBXn8/TKB+C1lsbW1/1YH3Fzb8C7h1/uN8L47jt5btwQV3/iGR4Fp0zQp1rgOYh/L0zfRnhU46/O/2wo0EIoAAAqEJiJ0FLLsrPjTUyvVxfN7LJd/OzQFckKT3UYnbT9tKl5P8AhAQ+wqo2+q/+koRHLLrdiS9jgu0dgRY1W56hHit/wfVCx1ve1XcFdt/6ScY3+ifYXi1Il4rNzMJbGWz1VfoYEeALJHLfIHnlrOCrAcr0IkRINt6S0cDZvNZKtYRQAABBBBAAAEEEEAAAQQQQAABBBBAAAEEwhD4A7Cqs/LdEqTxAAAAAElFTkSuQmCC"
+            },
+            {
+              "value": "singlePostcard",
+              "name": "Single Postcard",
+              "img": "data:image/png;base64,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"
+            }
+          ]
+        },
+        "description": "Select one of the 6 predefined templates for the testimonials in your slider. Tiled templates allow you to display several testimonials at ones, depending on the size of your slider. Single templates display individual testimonials. Perfect choice for cases when you need to focus on each individual story."
+      },
+      {
+        "id": "layout",
+        "name": "Layout",
+        "tab": "layout",
+        "type": "select-visual",
+        "defaultValue": "slider",
+        "select": {
+          "options": [
+            {
+              "value": "slider",
+              "name": "Slider",
+              "img": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAABMCAYAAAHSE4+SAAAABGdBTUEAALGPC/xhBQAAA49JREFUeAHtnb+u0zAUh+O0KwJ1hhGe4kowABIDD9AkdEFi5gHgBViQGBmQaEn6AgiEdIVAAomJB2BhAIkZJhi4wSfgyA1OrnN1GzXuF6nyqX385/fZdePUSaNo9IcyCuZJWoqtIvW2jMrLJr4ZrotcGV+x46ZDV+amr7z/rwCXE3HBE6hGohlZtlp7xLWNzmokzheLAzujy+4anfF6uXznykQcBEZEoJ7Tpc2uT5RLi/0pc6XbcW2+Ei9+TOk2rV52mi5uSIYkzb4Yu1cBOEMAAhD4R6D+LkiS7E3z5KdtHnedZfX1NT1Qfxc0KzcOrvA0fasGzNPsvauibcbNk+yjlF81YBqr+9uszFW2mqh7dQNWq9Vrl9M244rV6sU2y9+Dsu3zALH3QDISIQABCEAAAhAIj0C9JLGlDXmZyq7X2G3LG5Nuh3197bxi10uiZsK+vK8BSK/79vzY4VRa0+yb6JgaMTKUjB16aGutR0DootG3KwRk9WzmmjZ7V9pKOyAAAQhAAAIQgAAEIAABCEAAAhCAAARCJOC8EmwuWXUJlv1aRfHsyth8m5pOfFX4NPeL2Y0autwTA7AbPWYbAKb39I7FD2VZOucE4xNCqC/Fv0qSxVWjpfppLEnST1r8xSzLzuiEHyYxxFDrvB5Fv/VL33unj+ojUBT5JRVNruV5HrT4SrCaHjh/GyyK5aE4hH7k+dONzclMgqH3OPogAIHdIiCLJ7PDvs0essWDfwsopb6qKL4jItvsIQFQFwQgAAEIQAACEIAABCAAAQhAAAIQgAAEIAABCEAAAhCAAAQgAAEIQAACEIAABAIk4L0j3OdukD58zB5dyv37zKZtcTiuTwbfGHZcg0gflgADYFjeO1cbA2DnumTYBtXPD5Rq5+mth1F5dNc0IVbR2X24b8joDTXcOL9Q8ZN1vrpttG7MANM4eqRU9FwS9cbtn7PZ7JdxJBw1ge/Sen3GfzhR5QNbycYMoP/b4bNOvGk7YI+fgF5xnWtTsTEDtDkRHy4BBkC4feulzHsAyONBvEr0cLLLsm2PrJ0udlm23ZnJI9Euy7Y9sna62GXZdmcmj8TTLMujOlwgAIHREvD+LWCsCuUvUMvo6LG0X+5NzvPlS7H7xkueEI+NZWCIAqXz9RNyzlfaVDUQLojdNz5ENmiCAAQgAAEIQAACEIAABCAAAQhAAAIQgAAEIAABCEAgfAJ/AKamOLkPPjCYAAAAAElFTkSuQmCC"
+            },
+            {
+              "value": "grid",
+              "name": "Grid",
+              "img": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAABMCAYAAAHSE4+SAAAABGdBTUEAALGPC/xhBQAAAltJREFUeAHtnGFSgzAQhakX02uIHk/xGnoyHH5kJl0rIZsHdJvPPyRN9rH59g1h0o7DEP7vYlfwOr7N9rO8/zV9XsU85YOe9gMIeJZNjCFw5aplLDlxcVxq5zE4MadB+14I/DGyTew/M9/63MYufWt8O6f5iWoFa/vFBC7D5WeraM3cpFlMYB7m5zS5dK2Zm7SKCaSJXCEAgYcl4NoLbtHY+hJkY09/EJGAi4Bn17O1T31XAp5dL93QXl0JWJGWPgmcTqClfMRCAAIQgEB8AsU34tISa05J9ppbynFtvPudGABr9uhhrHsH9FDk1TWyC6zi6WCw+2cAAFpdXnNGttfc1jUQDwEIQAACEIAABCAAAQhAoDsCnAh1V3KzYA5EDJDuujigu5KbBeMAA6S7Lg44ouR7HYfX6B6xzpD34FU4ZNmESfMQFMIMKYUDQpZNmDQOEMIMKYUDjihbzSvrXnOPWCf3gAAEIAABCEAAAhCAAAQgAAEIQAACEIAABCAAAQhA4D4JNP8ypHVZ4/j+rfrPcMuXKdP08bLkFE23laM3/vSvBFXFXwDkWnnbCyfF5Vp5O417r0otbw6nG8CbOHEaAhhAwzGsCgYIWzpN4hhAwzGsCgYIWzpN4hhAwzGsCgYIWzpN4hhAwxEVCMQkwFHwhrodccS8IY1dppy+BSiPQ3OtvN1KLtfK20rdVi1v/OkG8CZOnIYABtBwDKuCAcKWTpM4BtBwDKuCAcKWTpM4BtBwDKuCAcKWTpM4BtBwRAUCEIAABCAAAQhAAAIQgAAEIAABCEAAAvdN4Be3SaFEIV9gmwAAAABJRU5ErkJggg=="
+            }
+          ]
+        },
+        "description": "Choose Slider layout to display testimonials in a feed as part of your page's content, or Grid layout to display them on a separate page or individually."
+      },
+      {
+        "id": "layoutSlider",
+        "name": "Slider Settings",
+        "tab": "layout",
+        "type": "subgroup",
+        "subgroup": {
+          "properties": [
+            {
+              "id": "sliderArrows",
+              "name": "Show navigation arrows",
+              "type": "toggle",
+              "defaultValue": true,
+              "description": "Activate/Deactivate arrows in the slider."
+            },
+            {
+              "id": "sliderDrag",
+              "name": "Drag to navigate",
+              "type": "toggle",
+              "defaultValue": true,
+              "description": "Activate/Deactivate drag in the slider."
+            },
+            {
+              "id": "sliderSpeed",
+              "name": "Slide switch speed (sec)",
+              "type": "number",
+              "defaultValue": 0.6,
+              "description": "Animation speed of slide switching (sec)."
+            },
+            {
+              "id": "sliderAutoplay",
+              "name": "Autoplay speed (sec)",
+              "type": "number",
+              "defaultValue": 0,
+              "description": "Autoplay in the slider (in seconds). If this option is set to \"0\" autoplay is turned off."
+            },
+            {
+              "id": "sliderPaginationType",
+              "name": "Pagination type",
+              "type": "select-inline",
+              "selectInline": {
+                "options": [
+                  {
+                    "value": "classic",
+                    "name": "Classic"
+                  },
+                  {
+                    "value": "none",
+                    "name": "None"
+                  }
+                ]
+              },
+              "defaultValue": "classic",
+              "description": "Type of pagination in the slider."
+            }
+          ]
+        }
+      },
+      {
+        "id": "widgetTitle",
+        "name": "Title",
+        "type": "text",
+        "tab": "content",
+        "defaultValue": "What our clients say",
+        "allowEmpty": true,
+        "description": "Add a title to your testimonials slider widget."
+      },
+      {
+        "id": "lang",
+        "name": "Language",
+        "tab": "content",
+        "type": "select",
+        "select": {
+          "options": [
+            {
+              "value": "de",
+              "name": "Deutsch"
+            },
+            {
+              "value": "en",
+              "name": "English"
+            },
+            {
+              "value": "es",
+              "name": "Español"
+            },
+            {
+              "value": "fr",
+              "name": "Français"
+            },
+            {
+              "value": "ru",
+              "name": "Русский"
+            },
+            {
+              "value": "pt",
+              "name": "Português"
+            },
+            {
+              "value": "sv",
+              "name": "Svenska"
+            },
+            {
+              "value": "pl",
+              "name": "Polski"
+            },
+            {
+              "value": "no",
+              "name": "Norsk"
+            },
+            {
+              "value": "it",
+              "name": "Italiano"
+            },
+            {
+              "value": "hu",
+              "name": "Magyar"
+            },
+            {
+              "value": "fi",
+              "name": "Finnish"
+            },
+            {
+              "value": "dk",
+              "name": "Dansk"
+            },
+            {
+              "value": "tr",
+              "name": "Turkish"
+            },
+            {
+              "value": "ar",
+              "name": "Arabic"
+            },
+            {
+              "value": "lt",
+              "name": "Lithuanian"
+            },
+            {
+              "value": "cz",
+              "name": "Czech"
+            },
+            {
+              "value": "nl",
+              "name": "Dutch"
+            },
+            {
+              "value": "el",
+              "name": "Greek"
+            }
+          ]
+        },
+        "defaultValue": "en",
+        "description": "Choose one of 6 available languages of widget's UI."
+      },
+      {
+        "id": "items",
+        "name": "Testimonials",
+        "tab": "content",
+        "type": "complex",
+        "complex": {
+          "properties": [
+            {
+              "id": "text",
+              "name": "Testimonial Text",
+              "type": "textarea",
+              "label": "Text",
+              "defaultValue": "",
+              "placeholder": "",
+              "allowEmpty": true,
+              "textarea": {
+                "enableRichEdit": true,
+                "enableRichEditHtml": true,
+                "settings": {
+                  "buttons": "bold,underline,italic,ul,ol,link,source"
+                }
+              },
+              "description": "Paste testimonial text to this field"
+            },
+            {
+              "id": "contentDivider",
+              "tab": "general",
+              "type": "divider"
+            },
+            {
+              "id": "name",
+              "name": "Author Name",
+              "type": "text",
+              "defaultValue": "",
+              "allowEmpty": true,
+              "description": "Enter the name of the testimonial's author."
+            },
+            {
+              "id": "socialProfileUrl",
+              "name": "Social Profile URL (Facebook, Twitter)",
+              "type": "text",
+              "defaultValue": "",
+              "allowEmpty": true,
+              "description": "Paste the link to the author's Facebook or Twitter page, to let people check out the profile and make sure that the author is real."
+            },
+            {
+              "id": "caption",
+              "name": "Caption (position, company name, etc)",
+              "type": "text",
+              "defaultValue": "",
+              "allowEmpty": true,
+              "description": "Set any additional info you'd like to display, e.g. the author's company name or position."
+            },
+            {
+              "id": "picture",
+              "name": "Picture (author photo, etc)",
+              "type": "file",
+              "defaultValue": {
+                "name": "",
+                "url": ""
+              },
+              "description": "Set the image URL to display alongside the testimonial. It could be the author photo or any other appropriate image.",
+              "allowEmpty": true
+            },
+            {
+              "id": "contentDivider",
+              "tab": "general",
+              "type": "divider"
+            },
+            {
+              "id": "websiteUrl",
+              "name": "Website URL",
+              "type": "text",
+              "defaultValue": "",
+              "allowEmpty": true,
+              "description": "Set the URL of the author's website. It will be displayed under the caption. In case you've specified the company logo in the field below, the URL won't be displayed. Instead, the logo will become clickable and will take you to that website."
+            },
+            {
+              "id": "logo",
+              "name": "Company Logo",
+              "type": "file",
+              "defaultValue": {
+                "name": "",
+                "url": ""
+              },
+              "allowEmpty": true,
+              "description": "Paste the URL to the testimonial's author's company logo. In case you've specified the website URL in the field above, the logo will become clickable and will take you to that website."
+            },
+            {
+              "id": "rating",
+              "name": "Rating",
+              "type": "select-inline",
+              "selectInline": {
+                "options": [
+                  {
+                    "value": 0,
+                    "name": "none"
+                  },
+                  {
+                    "value": 1,
+                    "name": "1"
+                  },
+                  {
+                    "value": 2,
+                    "name": "2"
+                  },
+                  {
+                    "value": 3,
+                    "name": "3"
+                  },
+                  {
+                    "value": 4,
+                    "name": "4"
+                  },
+                  {
+                    "value": 5,
+                    "name": "5"
+                  }
+                ]
+              },
+              "defaultValue": 0,
+              "description": ""
+            }
+          ]
+        },
+        "defaultValue": [
+          {
+            "text": "Love the design and customization of InstaShow 👍. We have used various Instagram apps for Shopify in the past but they would always mess up our theme. I love how we can completely customize InstaShow to how we want the feed to come out. Loads quickly and responsive to all devices. A++",
+            "name": "Taylor Jay",
+            "socialProfileUrl": "https://www.facebook.com/taylorjay4",
+            "caption": "Founder & CEO",
+            "picture": "https://elfsight.com/assets/testimonials-slider/1.jpg",
+            "websiteUrl": "https://www.raverebel.com/",
+            "logo": "https://elfsight.com/assets/testimonials-slider/logo-1.png",
+            "rating": 5
+          },
+          {
+            "text": "I have used Elfsight's InstaShow Instagram feed plugin for a couple years and have nothing but good things to say about it. I like the flexibility and amount of customization that you can do without requiring any custom CSS. I also like the fact that you can customize the plugin via CSS if you want to get super specific with the styling. I have recommended it to a few others who are using it on their sites and are equally as impressed.",
+            "name": "Garrett Kite",
+            "socialProfileUrl": "https://www.facebook.com/garrett.kite",
+            "caption": "Business strategist",
+            "picture": "https://elfsight.com/assets/testimonials-slider/2.jpg",
+            "websiteUrl": "https://www.kitemedia.com/",
+            "logo": "https://elfsight.com/assets/testimonials-slider/logo-2.png",
+            "rating": 5
+          },
+          {
+            "text": "A very well done plugin that now works exactly as advertised. Leaps and bounds above any other facebook plugin I've ever worked with 😍👏",
+            "name": "Marion Campbell",
+            "caption": "Entrepreneur",
+            "picture": "https://elfsight.com/assets/testimonials-slider/3.jpg",
+            "logo": "https://elfsight.com/assets/testimonials-slider/logo-3.png",
+            "rating": 5
+          },
+          {
+            "text": "This Instagram Feed app saved my day! It's very easy to install and the online configurator makes it really easy to customize it. Nice job, can't wait to try out the other Elfsight apps!",
+            "name": "Ruby King",
+            "socialProfileUrl": "",
+            "caption": "International economist",
+            "picture": "https://elfsight.com/assets/testimonials-slider/4.jpg",
+            "websiteUrl": "",
+            "logo": "https://elfsight.com/assets/testimonials-slider/logo-4.png",
+            "rating": 5
+          },
+          {
+            "text": "I've tried a dozen maps plugins, but the Google Maps one from Elfsight was the most intuitive, with just the right features and was the quickest to build. Excellent job.",
+            "name": "Diane Pennebaker",
+            "socialProfileUrl": "",
+            "caption": "Insurance adjuster",
+            "picture": "https://elfsight.com/assets/testimonials-slider/5.jpg",
+            "websiteUrl": "",
+            "logo": "https://elfsight.com/assets/testimonials-slider/logo-5.png",
+            "rating": 5
+          },
+          {
+            "text": "This app is great. It does exactly what I need it do and when I did run into a settings problem, the friendly chaps at Elfsight sorted it out for me nice and quickly 😊",
+            "name": "Cheryl Smith",
+            "socialProfileUrl": "",
+            "caption": "Systems analyst",
+            "picture": "https://elfsight.com/assets/testimonials-slider/6.jpg",
+            "websiteUrl": "",
+            "logo": "https://elfsight.com/assets/testimonials-slider/logo-6.png",
+            "rating": 5
+          },
+          {
+            "text": "Yottie is highly configurable and works great! The whole team went above and beyond to help me fix an issue which ultimately had nothing to do with the app. Highly recommend this plugin and development team.",
+            "name": "Tony Johnson",
+            "socialProfileUrl": "",
+            "caption": "Aerobics instructor",
+            "picture": "https://elfsight.com/assets/testimonials-slider/7.jpg",
+            "websiteUrl": "",
+            "logo": "https://elfsight.com/assets/testimonials-slider/logo-7.png",
+            "rating": 5
+          },
+          {
+            "text": "Plugin works flawlessly and very easy to use. Just input facebook url and put the code into the page and done! Thank you, Elfsight!",
+            "name": "Kevin Godwin",
+            "socialProfileUrl": "",
+            "caption": "Webmaster",
+            "picture": "https://elfsight.com/assets/testimonials-slider/8.jpg",
+            "websiteUrl": "",
+            "logo": "https://elfsight.com/assets/testimonials-slider/logo-8.png",
+            "rating": 5
+          },
+          {
+            "text": "The easiest pricing plugin I've ever come across! The UI is absolutely intuitive, and it's super-easy to install, too! Thumbs up for Elfsight! 👍👍👍",
+            "name": "Marva Flores",
+            "socialProfileUrl": "",
+            "caption": "Surgical technician",
+            "picture": "https://elfsight.com/assets/testimonials-slider/9.jpg",
+            "websiteUrl": "",
+            "logo": "https://elfsight.com/assets/testimonials-slider/logo-9.png",
+            "rating": 5
+          }
+        ],
+        "description": "Here you can add, edit and order your testimonials."
+      },
+      {
+        "id": "textAlign",
+        "tab": "style",
+        "name": "Testimonials text align",
+        "type": "select-inline",
+        "selectInline": {
+          "options": [
+            {
+              "value": "left",
+              "name": "Left"
+            },
+            {
+              "value": "center",
+              "name": "Center"
+            }
+          ]
+        },
+        "defaultValue": "left",
+        "description": ""
+      },
+      {
+        "id": "textView",
+        "tab": "style",
+        "name": "How to display testimonials text",
+        "type": "select-inline",
+        "selectInline": {
+          "options": [
+            {
+              "value": "short",
+              "name": "Short"
+            },
+            {
+              "value": "full",
+              "name": "Full"
+            }
+          ]
+        },
+        "defaultValue": "short",
+        "description": "Activate/Deactivate \"read more\" button for a large testimonials."
+      },
+      {
+        "id": "testimonialTextColor",
+        "name": "Testimonial Text Color",
+        "tab": "style",
+        "type": "color",
+        "defaultValue": "",
+        "description": ""
+      },
+      {
+        "id": "backgroundColor",
+        "name": "Background Color",
+        "tab": "style",
+        "type": "color",
+        "defaultValue": "",
+        "description": ""
+      },
+      {
+        "id": "authorNameColor",
+        "name": "Author Name Color",
+        "tab": "style",
+        "type": "color",
+        "defaultValue": "",
+        "description": ""
+      },
+      {
+        "id": "captionColor",
+        "name": "Caption Color",
+        "tab": "style",
+        "type": "color",
+        "defaultValue": "",
+        "description": ""
+      },
+      {
+        "id": "starsColor",
+        "name": "Stars Color",
+        "tab": "style",
+        "type": "color",
+        "defaultValue": "rgb(255, 221, 57)",
+        "description": ""
+      }
+    ]
+  }
+}

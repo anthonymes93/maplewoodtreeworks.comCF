@@ -1,0 +1,577 @@
+{
+    "version": "0.4",
+    "title": "Working Gallery",
+    "type": "page",
+    "metadata": {
+        "template_type": "single-page",
+        "include_in_zip": "1",
+        "elementor_pro_required": null,
+        "wp_page_template": "elementor_header_footer"
+    },
+    "content": [
+        {
+            "id": "72dc2a69",
+            "settings": {
+                "content_width": {
+                    "unit": "px",
+                    "size": 800,
+                    "sizes": []
+                },
+                "padding": {
+                    "unit": "px",
+                    "top": "225",
+                    "right": "50",
+                    "bottom": "100",
+                    "left": "50",
+                    "isLinked": false
+                },
+                "padding_tablet": {
+                    "unit": "px",
+                    "top": "175",
+                    "right": "15",
+                    "bottom": "50",
+                    "left": "15",
+                    "isLinked": false
+                },
+                "custom_height": {
+                    "unit": "px",
+                    "size": 600,
+                    "sizes": []
+                },
+                "background_background": "classic",
+                "background_image": {
+                    "id": "11",
+                    "url": "https:\/\/ngecorkit.nirmanavisual.com\/wp-content\/uploads\/2021\/06\/happy-architects-using-digital-tablet-at-construction-site-1.jpg"
+                },
+                "background_size": "cover",
+                "background_overlay_background": "classic",
+                "background_overlay_color": "#000000",
+                "__globals__": {
+                    "background_overlay_color": ""
+                },
+                "gap": "no",
+                "background_attachment": "fixed"
+            },
+            "elements": [
+                {
+                    "id": "655717e4",
+                    "settings": {
+                        "_column_size": 100,
+                        "_inline_size": null
+                    },
+                    "elements": [
+                        {
+                            "id": "450930cd",
+                            "settings": {
+                                "page_custom_link": "none",
+                                "heading_tag": "h1",
+                                "align": "center",
+                                "title_color": "#FFFFFF"
+                            },
+                            "elements": [],
+                            "isInner": false,
+                            "widgetType": "page-title",
+                            "elType": "widget"
+                        },
+                        {
+                            "id": "6b380972",
+                            "settings": {
+                                "text_color": "#FFFFFF",
+                                "align": "center"
+                            },
+                            "elements": [],
+                            "isInner": false,
+                            "widgetType": "text-editor",
+                            "elType": "widget"
+                        }
+                    ],
+                    "isInner": false,
+                    "elType": "column"
+                }
+            ],
+            "isInner": false,
+            "elType": "section"
+        },
+        {
+            "id": "49b597ca",
+            "settings": {
+                "content_width": {
+                    "unit": "px",
+                    "size": 1440,
+                    "sizes": []
+                },
+                "padding": {
+                    "unit": "px",
+                    "top": "100",
+                    "right": "50",
+                    "bottom": "100",
+                    "left": "50",
+                    "isLinked": false
+                },
+                "padding_tablet": {
+                    "unit": "px",
+                    "top": "50",
+                    "right": "15",
+                    "bottom": "50",
+                    "left": "15",
+                    "isLinked": false
+                },
+                "gap": "no",
+                "animation": "fadeIn"
+            },
+            "elements": [
+                {
+                    "id": "530ddc3d",
+                    "settings": {
+                        "_column_size": 100,
+                        "_inline_size": null
+                    },
+                    "elements": [
+                        {
+                            "id": "1b6c1cfc",
+                            "settings": {
+                                "content_width": {
+                                    "unit": "px",
+                                    "size": 1440,
+                                    "sizes": []
+                                },
+                                "structure": "20",
+                                "reverse_order_tablet": "reverse-tablet",
+                                "reverse_order_mobile": "reverse-mobile"
+                            },
+                            "elements": [
+                                {
+                                    "id": "496089b",
+                                    "settings": {
+                                        "_column_size": 50,
+                                        "_inline_size": null,
+                                        "_inline_size_tablet": 100,
+                                        "background_background": "classic",
+                                        "background_color": "#272121",
+                                        "padding": {
+                                            "unit": "px",
+                                            "top": "50",
+                                            "right": "50",
+                                            "bottom": "50",
+                                            "left": "50",
+                                            "isLinked": true
+                                        },
+                                        "padding_mobile": {
+                                            "unit": "px",
+                                            "top": "25",
+                                            "right": "25",
+                                            "bottom": "25",
+                                            "left": "25",
+                                            "isLinked": true
+                                        },
+                                        "__globals__": {
+                                            "background_color": ""
+                                        }
+                                    },
+                                    "elements": [
+                                        {
+                                            "id": "5d1c5e08",
+                                            "settings": {
+                                                "title": "Work Documentation",
+                                                "header_size": "h5",
+                                                "title_color": "#FF4D00",
+                                                "__globals__": {
+                                                    "title_color": ""
+                                                }
+                                            },
+                                            "elements": [],
+                                            "isInner": false,
+                                            "widgetType": "heading",
+                                            "elType": "widget"
+                                        },
+                                        {
+                                            "id": "5dbdb3fd",
+                                            "settings": {
+                                                "title": "Business Meeting With Our Client",
+                                                "title_color": "#FFFFFF"
+                                            },
+                                            "elements": [],
+                                            "isInner": false,
+                                            "widgetType": "heading",
+                                            "elType": "widget"
+                                        },
+                                        {
+                                            "id": "206bb27f",
+                                            "settings": {
+                                                "editor": "<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.\u00a0<\/p>",
+                                                "text_color": "#FFFFFF"
+                                            },
+                                            "elements": [],
+                                            "isInner": false,
+                                            "widgetType": "text-editor",
+                                            "elType": "widget"
+                                        }
+                                    ],
+                                    "isInner": true,
+                                    "elType": "column"
+                                },
+                                {
+                                    "id": "7fbfd9bc",
+                                    "settings": {
+                                        "_column_size": 50,
+                                        "_inline_size": null,
+                                        "_inline_size_tablet": 100,
+                                        "content_position": "center",
+                                        "background_background": "classic",
+                                        "background_image": {
+                                            "id": "12",
+                                            "url": "https:\/\/ngecorkit.nirmanavisual.com\/wp-content\/uploads\/2021\/06\/businesspeople-in-a-meeting-looking-at-construction-drawings-1.jpg"
+                                        },
+                                        "background_attachment": "fixed",
+                                        "background_size": "cover",
+                                        "background_overlay_background": "classic",
+                                        "background_overlay_color": "#000000",
+                                        "background_overlay_opacity": {
+                                            "unit": "px",
+                                            "size": 0.3,
+                                            "sizes": []
+                                        },
+                                        "padding_tablet": {
+                                            "unit": "px",
+                                            "top": "150",
+                                            "right": "150",
+                                            "bottom": "150",
+                                            "left": "150",
+                                            "isLinked": true
+                                        },
+                                        "padding_mobile": {
+                                            "unit": "px",
+                                            "top": "50",
+                                            "right": "50",
+                                            "bottom": "50",
+                                            "left": "50",
+                                            "isLinked": true
+                                        }
+                                    },
+                                    "elements": [
+                                        {
+                                            "id": "42ac4f1c",
+                                            "settings": {
+                                                "ekit_video_popup_button_title": "Play Video",
+                                                "ekit_video_popup_url": "https:\/\/www.youtube.com\/watch?v=1MTkZPys7mU",
+                                                "ekit_video_popup_icon_size": {
+                                                    "unit": "px",
+                                                    "size": 65,
+                                                    "sizes": []
+                                                },
+                                                "ekit_video_popup_btn_width": {
+                                                    "unit": "px",
+                                                    "size": 120,
+                                                    "sizes": []
+                                                },
+                                                "ekit_video_popup_btn_height": {
+                                                    "unit": "px",
+                                                    "size": 120,
+                                                    "sizes": []
+                                                },
+                                                "ekit_video_popup_btn_line_height": {
+                                                    "unit": "px",
+                                                    "size": 145,
+                                                    "sizes": []
+                                                },
+                                                "ekit_video_popup_btn_glow_color": "#255CFF00",
+                                                "ekit_video_popup_btn_bg_color_background": "classic",
+                                                "ekit_video_popup_btn_bg_color_color": "#02010100"
+                                            },
+                                            "elements": [],
+                                            "isInner": false,
+                                            "widgetType": "elementskit-video",
+                                            "elType": "widget"
+                                        }
+                                    ],
+                                    "isInner": true,
+                                    "elType": "column"
+                                }
+                            ],
+                            "isInner": true,
+                            "elType": "section"
+                        },
+                        {
+                            "id": "eaec1e8",
+                            "settings": {
+                                "content_width": {
+                                    "unit": "px",
+                                    "size": 1440,
+                                    "sizes": []
+                                },
+                                "structure": "20"
+                            },
+                            "elements": [
+                                {
+                                    "id": "524d3066",
+                                    "settings": {
+                                        "_column_size": 50,
+                                        "_inline_size": null,
+                                        "_inline_size_tablet": 100,
+                                        "content_position": "center",
+                                        "background_background": "classic",
+                                        "background_image": {
+                                            "id": "13",
+                                            "url": "https:\/\/ngecorkit.nirmanavisual.com\/wp-content\/uploads\/2021\/06\/road-construction-business-1.jpg"
+                                        },
+                                        "background_position": "center right",
+                                        "background_attachment": "fixed",
+                                        "background_overlay_background": "classic",
+                                        "background_overlay_color": "#000000",
+                                        "background_overlay_opacity": {
+                                            "unit": "px",
+                                            "size": 0.3,
+                                            "sizes": []
+                                        },
+                                        "padding_tablet": {
+                                            "unit": "px",
+                                            "top": "150",
+                                            "right": "150",
+                                            "bottom": "150",
+                                            "left": "150",
+                                            "isLinked": true
+                                        },
+                                        "padding_mobile": {
+                                            "unit": "px",
+                                            "top": "50",
+                                            "right": "50",
+                                            "bottom": "50",
+                                            "left": "50",
+                                            "isLinked": true
+                                        }
+                                    },
+                                    "elements": [
+                                        {
+                                            "id": "51d5c3e0",
+                                            "settings": {
+                                                "ekit_video_popup_button_title": "Play Video",
+                                                "ekit_video_popup_url": "https:\/\/www.youtube.com\/watch?v=1MTkZPys7mU",
+                                                "ekit_video_popup_icon_size": {
+                                                    "unit": "px",
+                                                    "size": 65,
+                                                    "sizes": []
+                                                },
+                                                "ekit_video_popup_btn_width": {
+                                                    "unit": "px",
+                                                    "size": 120,
+                                                    "sizes": []
+                                                },
+                                                "ekit_video_popup_btn_height": {
+                                                    "unit": "px",
+                                                    "size": 120,
+                                                    "sizes": []
+                                                },
+                                                "ekit_video_popup_btn_line_height": {
+                                                    "unit": "px",
+                                                    "size": 145,
+                                                    "sizes": []
+                                                },
+                                                "ekit_video_popup_btn_glow_color": "#255CFF00",
+                                                "ekit_video_popup_btn_bg_color_background": "classic",
+                                                "ekit_video_popup_btn_bg_color_color": "#02010100"
+                                            },
+                                            "elements": [],
+                                            "isInner": false,
+                                            "widgetType": "elementskit-video",
+                                            "elType": "widget"
+                                        }
+                                    ],
+                                    "isInner": true,
+                                    "elType": "column"
+                                },
+                                {
+                                    "id": "42e1acf9",
+                                    "settings": {
+                                        "_column_size": 50,
+                                        "_inline_size": null,
+                                        "_inline_size_tablet": 100,
+                                        "background_background": "classic",
+                                        "background_color": "#272121",
+                                        "padding": {
+                                            "unit": "px",
+                                            "top": "50",
+                                            "right": "50",
+                                            "bottom": "50",
+                                            "left": "50",
+                                            "isLinked": true
+                                        },
+                                        "padding_mobile": {
+                                            "unit": "px",
+                                            "top": "25",
+                                            "right": "25",
+                                            "bottom": "25",
+                                            "left": "25",
+                                            "isLinked": true
+                                        },
+                                        "__globals__": {
+                                            "background_color": ""
+                                        }
+                                    },
+                                    "elements": [
+                                        {
+                                            "id": "284287d2",
+                                            "settings": {
+                                                "title": "Work Documentation",
+                                                "header_size": "h5",
+                                                "title_color": "#FF4D00",
+                                                "__globals__": {
+                                                    "title_color": ""
+                                                }
+                                            },
+                                            "elements": [],
+                                            "isInner": false,
+                                            "widgetType": "heading",
+                                            "elType": "widget"
+                                        },
+                                        {
+                                            "id": "6b3b1355",
+                                            "settings": {
+                                                "title": "Building With Our Worker Team",
+                                                "title_color": "#FFFFFF"
+                                            },
+                                            "elements": [],
+                                            "isInner": false,
+                                            "widgetType": "heading",
+                                            "elType": "widget"
+                                        },
+                                        {
+                                            "id": "7cefd2d8",
+                                            "settings": {
+                                                "editor": "<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.\u00a0<\/p>",
+                                                "text_color": "#FFFFFF"
+                                            },
+                                            "elements": [],
+                                            "isInner": false,
+                                            "widgetType": "text-editor",
+                                            "elType": "widget"
+                                        }
+                                    ],
+                                    "isInner": true,
+                                    "elType": "column"
+                                }
+                            ],
+                            "isInner": true,
+                            "elType": "section"
+                        }
+                    ],
+                    "isInner": false,
+                    "elType": "column"
+                }
+            ],
+            "isInner": false,
+            "elType": "section"
+        },
+        {
+            "id": "79ac5466",
+            "settings": {
+                "content_width": {
+                    "unit": "px",
+                    "size": 1440,
+                    "sizes": []
+                },
+                "padding": {
+                    "unit": "px",
+                    "top": "0",
+                    "right": "50",
+                    "bottom": "100",
+                    "left": "50",
+                    "isLinked": false
+                },
+                "padding_tablet": {
+                    "unit": "px",
+                    "top": "0",
+                    "right": "15",
+                    "bottom": "50",
+                    "left": "15",
+                    "isLinked": false
+                },
+                "gap": "no",
+                "animation": "fadeIn"
+            },
+            "elements": [
+                {
+                    "id": "110068c4",
+                    "settings": {
+                        "_column_size": 100,
+                        "_inline_size": null
+                    },
+                    "elements": [
+                        {
+                            "id": "334dca51",
+                            "settings": {
+                                "gallery": [
+                                    {
+                                        "filter": "Happy",
+                                        "_id": "214ebee",
+                                        "images": [
+                                            {
+                                                "id": 1409,
+                                                "url": "https:\/\/ngecorkit.nirmanavisual.com\/wp-content\/uploads\/2021\/06\/modern-house-with-photovoltaic-system-2.jpg"
+                                            },
+                                            {
+                                                "id": 16,
+                                                "url": "https:\/\/ngecorkit.nirmanavisual.com\/wp-content\/uploads\/2021\/06\/apartment-with-the-fireplace-1.jpg"
+                                            },
+                                            {
+                                                "id": 18,
+                                                "url": "https:\/\/ngecorkit.nirmanavisual.com\/wp-content\/uploads\/2021\/06\/hotel-room-1.jpg"
+                                            },
+                                            {
+                                                "id": 19,
+                                                "url": "https:\/\/ngecorkit.nirmanavisual.com\/wp-content\/uploads\/2021\/06\/3d-rendering-modern-house-with-terrace-at-night-1.jpg"
+                                            },
+                                            {
+                                                "id": 15,
+                                                "url": "https:\/\/ngecorkit.nirmanavisual.com\/wp-content\/uploads\/2021\/06\/hotel-room-1-1.jpg"
+                                            },
+                                            {
+                                                "id": 17,
+                                                "url": "https:\/\/ngecorkit.nirmanavisual.com\/wp-content\/uploads\/2021\/06\/apartment-interior-in-white-and-blue-1.jpg"
+                                            },
+                                            {
+                                                "id": 13,
+                                                "url": "https:\/\/ngecorkit.nirmanavisual.com\/wp-content\/uploads\/2021\/06\/road-construction-business-1.jpg"
+                                            },
+                                            {
+                                                "id": 21,
+                                                "url": "https:\/\/ngecorkit.nirmanavisual.com\/wp-content\/uploads\/2021\/06\/construction-worker-planning-constractor-developer-concept-1.jpg"
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "thumbnail_size": "full",
+                                "all_filter_label": "All",
+                                "margins": {
+                                    "unit": "px",
+                                    "size": 12.5,
+                                    "sizes": []
+                                },
+                                "image_border_radius": {
+                                    "unit": "px",
+                                    "top": "0",
+                                    "right": "0",
+                                    "bottom": "0",
+                                    "left": "0",
+                                    "isLinked": false
+                                }
+                            },
+                            "elements": [],
+                            "isInner": false,
+                            "widgetType": "ha-justified-gallery",
+                            "elType": "widget"
+                        }
+                    ],
+                    "isInner": false,
+                    "elType": "column"
+                }
+            ],
+            "isInner": false,
+            "elType": "section"
+        }
+    ],
+    "page_settings": {
+        "ha_grid_zindex": "1000",
+        "eael_ext_toc_title": "Table of Contents",
+        "template": "elementor_header_footer"
+    }
+}

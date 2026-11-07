@@ -1,0 +1,1005 @@
+{
+    "manifest_version": "1.0.19",
+    "title": "Ngecor - Construction & Building Company Elementor Template Kit",
+    "page_builder": "elementor",
+    "kit_version": "1.0.0",
+    "templates": [
+        {
+            "name": "Global Kit Styles",
+            "screenshot": "screenshots\/global-kit-styles.jpg",
+            "source": "templates\/global.json",
+            "preview_url": "https:\/\/ngecorkit.nirmanavisual.com",
+            "type": "section",
+            "category": "page",
+            "metadata": {
+                "template_type": "global-styles",
+                "include_in_zip": "1",
+                "elementor_pro_required": null,
+                "additional_template_information": [
+                    "These are the global theme styles configured through the Elementor Theme Styles area."
+                ]
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "404 Page",
+            "screenshot": "screenshots\/404-page.jpg",
+            "source": "templates\/404-page.json",
+            "preview_url": "https:\/\/ngecorkit.nirmanavisual.com\/template-kit\/404-page\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Home 1",
+            "screenshot": "screenshots\/home-1.jpg",
+            "source": "templates\/home-1.json",
+            "preview_url": "https:\/\/ngecorkit.nirmanavisual.com\/template-kit\/home-1\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "MetForm - Form Quotation",
+            "screenshot": "screenshots\/metform-form-quotation.jpg",
+            "source": "templates\/metform-form-quotation.json",
+            "preview_url": "https:\/\/ngecorkit.nirmanavisual.com\/template-kit\/metform-form-quotation\/",
+            "type": "section",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-other",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "MetForm - Form Project",
+            "screenshot": "screenshots\/metform-form-project.jpg",
+            "source": "templates\/metform-form-project.json",
+            "preview_url": "https:\/\/ngecorkit.nirmanavisual.com\/template-kit\/metform-form-project\/",
+            "type": "section",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-other",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Footer",
+            "screenshot": "screenshots\/footer.jpg",
+            "source": "templates\/footer.json",
+            "preview_url": "https:\/\/ngecorkit.nirmanavisual.com\/template-kit\/footer\/",
+            "type": "section",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-footer",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Header",
+            "screenshot": "screenshots\/header.jpg",
+            "source": "templates\/header.json",
+            "preview_url": "https:\/\/ngecorkit.nirmanavisual.com\/template-kit\/header\/",
+            "type": "section",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-header",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Blog",
+            "screenshot": "screenshots\/blog.jpg",
+            "source": "templates\/blog.json",
+            "preview_url": "https:\/\/ngecorkit.nirmanavisual.com\/template-kit\/blog\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Single Post",
+            "screenshot": "screenshots\/single-post.jpg",
+            "source": "templates\/single-post.json",
+            "preview_url": "https:\/\/ngecorkit.nirmanavisual.com\/template-kit\/single-post\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Offcanvas Menu",
+            "screenshot": "screenshots\/offcanvas-menu.jpg",
+            "source": "templates\/offcanvas-menu.json",
+            "preview_url": "https:\/\/ngecorkit.nirmanavisual.com\/template-kit\/offcanvas-menu\/",
+            "type": "section",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-other",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Contact Us",
+            "screenshot": "screenshots\/contact-us.jpg",
+            "source": "templates\/contact-us.json",
+            "preview_url": "https:\/\/ngecorkit.nirmanavisual.com\/template-kit\/contact-us\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Working Gallery",
+            "screenshot": "screenshots\/working-gallery.jpg",
+            "source": "templates\/working-gallery.json",
+            "preview_url": "https:\/\/ngecorkit.nirmanavisual.com\/template-kit\/working-gallery\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Detail Portfolio",
+            "screenshot": "screenshots\/detail-portfolio.jpg",
+            "source": "templates\/detail-portfolio.json",
+            "preview_url": "https:\/\/ngecorkit.nirmanavisual.com\/template-kit\/detail-portfolio\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Portfolio",
+            "screenshot": "screenshots\/portfolio.jpg",
+            "source": "templates\/portfolio.json",
+            "preview_url": "https:\/\/ngecorkit.nirmanavisual.com\/template-kit\/portfolio\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Detail Project",
+            "screenshot": "screenshots\/detail-project.jpg",
+            "source": "templates\/detail-project.json",
+            "preview_url": "https:\/\/ngecorkit.nirmanavisual.com\/template-kit\/detail-project\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Our Projects",
+            "screenshot": "screenshots\/our-projects.jpg",
+            "source": "templates\/our-projects.json",
+            "preview_url": "https:\/\/ngecorkit.nirmanavisual.com\/template-kit\/our-projects\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Our Services",
+            "screenshot": "screenshots\/our-services.jpg",
+            "source": "templates\/our-services.json",
+            "preview_url": "https:\/\/ngecorkit.nirmanavisual.com\/template-kit\/our-services\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "About Us",
+            "screenshot": "screenshots\/about-us.jpg",
+            "source": "templates\/about-us.json",
+            "preview_url": "https:\/\/ngecorkit.nirmanavisual.com\/template-kit\/about-us\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Home 2",
+            "screenshot": "screenshots\/home-2.jpg",
+            "source": "templates\/home-2.json",
+            "preview_url": "https:\/\/ngecorkit.nirmanavisual.com\/template-kit\/home-2\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "MetForm - Contact Form",
+            "screenshot": "screenshots\/metform-contact-form.jpg",
+            "source": "templates\/metform-contact-form.json",
+            "preview_url": "https:\/\/ngecorkit.nirmanavisual.com\/template-kit\/metform-contact-form\/",
+            "type": "section",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-other",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        }
+    ],
+    "required_plugins": [
+        {
+            "name": "Elementor",
+            "version": "3.2.5",
+            "file": "elementor\/elementor.php",
+            "author": "Elementor.com"
+        },
+        {
+            "name": "ElementsKit Lite",
+            "version": "2.3.0",
+            "file": "elementskit-lite\/elementskit-lite.php",
+            "author": "Wpmet"
+        },
+        {
+            "name": "Essential Addons for Elementor",
+            "version": "4.7.2",
+            "file": "essential-addons-for-elementor-lite\/essential_adons_elementor.php",
+            "author": "WPDeveloper"
+        },
+        {
+            "name": "Happy Elementor Addons",
+            "version": "2.25.0",
+            "file": "happy-elementor-addons\/plugin.php",
+            "author": "weDevs"
+        },
+        {
+            "name": "Elementor - Header, Footer & Blocks",
+            "version": "1.5.9",
+            "file": "header-footer-elementor\/header-footer-elementor.php",
+            "author": "Brainstorm Force, Nikhil Chavan"
+        },
+        {
+            "name": "MetForm",
+            "version": "1.4.10",
+            "file": "metform\/metform.php",
+            "author": "Wpmet"
+        }
+    ],
+    "images": [
+        {
+            "filename": "road-construction-in-himalayas.jpg",
+            "thumbnail_url": "https:\/\/ngecorkit.nirmanavisual.com\/wp-content\/uploads\/2021\/06\/road-construction-in-himalayas-800x714.jpg",
+            "templates": [
+                {
+                    "source": "templates\/404-page.json",
+                    "name": "404 Page"
+                }
+            ],
+            "filesize": 240193,
+            "dimensions": [
+                1000,
+                893
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-P3K6FNJ"
+        },
+        {
+            "filename": "happy-architects-using-digital-tablet-at-construction-site-1.jpg",
+            "thumbnail_url": "https:\/\/ngecorkit.nirmanavisual.com\/wp-content\/uploads\/2021\/06\/happy-architects-using-digital-tablet-at-construction-site-1-800x534.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home-1.json",
+                    "name": "Home 1"
+                },
+                {
+                    "source": "templates\/blog.json",
+                    "name": "Blog"
+                },
+                {
+                    "source": "templates\/single-post.json",
+                    "name": "Single Post"
+                },
+                {
+                    "source": "templates\/contact-us.json",
+                    "name": "Contact Us"
+                },
+                {
+                    "source": "templates\/working-gallery.json",
+                    "name": "Working Gallery"
+                },
+                {
+                    "source": "templates\/detail-portfolio.json",
+                    "name": "Detail Portfolio"
+                },
+                {
+                    "source": "templates\/portfolio.json",
+                    "name": "Portfolio"
+                },
+                {
+                    "source": "templates\/detail-project.json",
+                    "name": "Detail Project"
+                },
+                {
+                    "source": "templates\/our-projects.json",
+                    "name": "Our Projects"
+                },
+                {
+                    "source": "templates\/our-services.json",
+                    "name": "Our Services"
+                },
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About Us"
+                },
+                {
+                    "source": "templates\/home-2.json",
+                    "name": "Home 2"
+                }
+            ],
+            "filesize": 232943,
+            "dimensions": [
+                2000,
+                1335
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-VMBXVPF"
+        },
+        {
+            "filename": "hotel-room-1-1.jpg",
+            "thumbnail_url": "https:\/\/ngecorkit.nirmanavisual.com\/wp-content\/uploads\/2021\/06\/hotel-room-1-1-800x614.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home-1.json",
+                    "name": "Home 1"
+                },
+                {
+                    "source": "templates\/working-gallery.json",
+                    "name": "Working Gallery"
+                },
+                {
+                    "source": "templates\/detail-portfolio.json",
+                    "name": "Detail Portfolio"
+                },
+                {
+                    "source": "templates\/portfolio.json",
+                    "name": "Portfolio"
+                },
+                {
+                    "source": "templates\/detail-project.json",
+                    "name": "Detail Project"
+                },
+                {
+                    "source": "templates\/our-projects.json",
+                    "name": "Our Projects"
+                },
+                {
+                    "source": "templates\/our-services.json",
+                    "name": "Our Services"
+                },
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About Us"
+                },
+                {
+                    "source": "templates\/home-2.json",
+                    "name": "Home 2"
+                }
+            ],
+            "filesize": 274197,
+            "dimensions": [
+                2000,
+                1534
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-PL5JQEB"
+        },
+        {
+            "filename": "apartment-interior-in-white-and-blue-1.jpg",
+            "thumbnail_url": "https:\/\/ngecorkit.nirmanavisual.com\/wp-content\/uploads\/2021\/06\/apartment-interior-in-white-and-blue-1-800x533.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home-1.json",
+                    "name": "Home 1"
+                },
+                {
+                    "source": "templates\/single-post.json",
+                    "name": "Single Post"
+                },
+                {
+                    "source": "templates\/working-gallery.json",
+                    "name": "Working Gallery"
+                },
+                {
+                    "source": "templates\/detail-portfolio.json",
+                    "name": "Detail Portfolio"
+                },
+                {
+                    "source": "templates\/portfolio.json",
+                    "name": "Portfolio"
+                },
+                {
+                    "source": "templates\/detail-project.json",
+                    "name": "Detail Project"
+                },
+                {
+                    "source": "templates\/our-projects.json",
+                    "name": "Our Projects"
+                },
+                {
+                    "source": "templates\/our-services.json",
+                    "name": "Our Services"
+                },
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About Us"
+                },
+                {
+                    "source": "templates\/home-2.json",
+                    "name": "Home 2"
+                }
+            ],
+            "filesize": 157964,
+            "dimensions": [
+                2000,
+                1333
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-4FXEC63"
+        },
+        {
+            "filename": "3d-rendering-modern-house-with-terrace-at-night-1.jpg",
+            "thumbnail_url": "https:\/\/ngecorkit.nirmanavisual.com\/wp-content\/uploads\/2021\/06\/3d-rendering-modern-house-with-terrace-at-night-1-800x466.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home-1.json",
+                    "name": "Home 1"
+                },
+                {
+                    "source": "templates\/working-gallery.json",
+                    "name": "Working Gallery"
+                },
+                {
+                    "source": "templates\/detail-portfolio.json",
+                    "name": "Detail Portfolio"
+                },
+                {
+                    "source": "templates\/portfolio.json",
+                    "name": "Portfolio"
+                },
+                {
+                    "source": "templates\/detail-project.json",
+                    "name": "Detail Project"
+                },
+                {
+                    "source": "templates\/our-projects.json",
+                    "name": "Our Projects"
+                },
+                {
+                    "source": "templates\/our-services.json",
+                    "name": "Our Services"
+                },
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About Us"
+                },
+                {
+                    "source": "templates\/home-2.json",
+                    "name": "Home 2"
+                }
+            ],
+            "filesize": 311932,
+            "dimensions": [
+                2000,
+                1166
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-82BV93Z"
+        },
+        {
+            "filename": "construction-worker-planning-constractor-developer-concept-1.jpg",
+            "thumbnail_url": "https:\/\/ngecorkit.nirmanavisual.com\/wp-content\/uploads\/2021\/06\/construction-worker-planning-constractor-developer-concept-1-800x800.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home-1.json",
+                    "name": "Home 1"
+                },
+                {
+                    "source": "templates\/working-gallery.json",
+                    "name": "Working Gallery"
+                },
+                {
+                    "source": "templates\/detail-portfolio.json",
+                    "name": "Detail Portfolio"
+                },
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About Us"
+                },
+                {
+                    "source": "templates\/home-2.json",
+                    "name": "Home 2"
+                }
+            ],
+            "filesize": 178460,
+            "dimensions": [
+                2000,
+                2000
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-P6TTB32"
+        },
+        {
+            "filename": "road-construction-business-1.jpg",
+            "thumbnail_url": "https:\/\/ngecorkit.nirmanavisual.com\/wp-content\/uploads\/2021\/06\/road-construction-business-1-800x533.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home-1.json",
+                    "name": "Home 1"
+                },
+                {
+                    "source": "templates\/working-gallery.json",
+                    "name": "Working Gallery"
+                },
+                {
+                    "source": "templates\/detail-portfolio.json",
+                    "name": "Detail Portfolio"
+                },
+                {
+                    "source": "templates\/detail-project.json",
+                    "name": "Detail Project"
+                },
+                {
+                    "source": "templates\/home-2.json",
+                    "name": "Home 2"
+                }
+            ],
+            "filesize": 158792,
+            "dimensions": [
+                2000,
+                1333
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-GPDME7Q"
+        },
+        {
+            "filename": "construction-1.jpg",
+            "thumbnail_url": "https:\/\/ngecorkit.nirmanavisual.com\/wp-content\/uploads\/2021\/06\/construction-1-800x1200.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home-1.json",
+                    "name": "Home 1"
+                },
+                {
+                    "source": "templates\/our-services.json",
+                    "name": "Our Services"
+                }
+            ],
+            "filesize": 140800,
+            "dimensions": [
+                1333,
+                2000
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-TYEPD8V"
+        },
+        {
+            "filename": "logoipsum-logo-16-2.png",
+            "thumbnail_url": "https:\/\/ngecorkit.nirmanavisual.com\/wp-content\/uploads\/2021\/06\/logoipsum-logo-16-2.png",
+            "templates": [
+                {
+                    "source": "templates\/home-1.json",
+                    "name": "Home 1"
+                },
+                {
+                    "source": "templates\/our-services.json",
+                    "name": "Our Services"
+                }
+            ],
+            "filesize": 1458,
+            "dimensions": [
+                109,
+                43
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": ""
+        },
+        {
+            "filename": "logoipsum-logo-15-1.png",
+            "thumbnail_url": "https:\/\/ngecorkit.nirmanavisual.com\/wp-content\/uploads\/2021\/06\/logoipsum-logo-15-1.png",
+            "templates": [
+                {
+                    "source": "templates\/home-1.json",
+                    "name": "Home 1"
+                },
+                {
+                    "source": "templates\/our-services.json",
+                    "name": "Our Services"
+                }
+            ],
+            "filesize": 1105,
+            "dimensions": [
+                49,
+                48
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": ""
+        },
+        {
+            "filename": "logoipsum-logo-13-1.png",
+            "thumbnail_url": "https:\/\/ngecorkit.nirmanavisual.com\/wp-content\/uploads\/2021\/06\/logoipsum-logo-13-1.png",
+            "templates": [
+                {
+                    "source": "templates\/home-1.json",
+                    "name": "Home 1"
+                },
+                {
+                    "source": "templates\/our-services.json",
+                    "name": "Our Services"
+                }
+            ],
+            "filesize": 1100,
+            "dimensions": [
+                49,
+                48
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": ""
+        },
+        {
+            "filename": "logoipsum-logo-14-1.png",
+            "thumbnail_url": "https:\/\/ngecorkit.nirmanavisual.com\/wp-content\/uploads\/2021\/06\/logoipsum-logo-14-1.png",
+            "templates": [
+                {
+                    "source": "templates\/home-1.json",
+                    "name": "Home 1"
+                },
+                {
+                    "source": "templates\/our-services.json",
+                    "name": "Our Services"
+                }
+            ],
+            "filesize": 1706,
+            "dimensions": [
+                73,
+                49
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": ""
+        },
+        {
+            "filename": "Ngecor-Logo-White.png",
+            "thumbnail_url": "https:\/\/ngecorkit.nirmanavisual.com\/wp-content\/uploads\/2021\/06\/Ngecor-Logo-White.png",
+            "templates": [
+                {
+                    "source": "templates\/footer.json",
+                    "name": "Footer"
+                }
+            ],
+            "filesize": 3491,
+            "dimensions": [
+                328,
+                81
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": ""
+        },
+        {
+            "filename": "Ngecor-Logo-4.png",
+            "thumbnail_url": "https:\/\/ngecorkit.nirmanavisual.com\/wp-content\/uploads\/2021\/06\/Ngecor-Logo-4.png",
+            "templates": [
+                {
+                    "source": "templates\/header.json",
+                    "name": "Header"
+                }
+            ],
+            "filesize": 4401,
+            "dimensions": [
+                415,
+                117
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": ""
+        },
+        {
+            "filename": "businesspeople-in-a-meeting-looking-at-construction-drawings-1.jpg",
+            "thumbnail_url": "https:\/\/ngecorkit.nirmanavisual.com\/wp-content\/uploads\/2021\/06\/businesspeople-in-a-meeting-looking-at-construction-drawings-1-800x522.jpg",
+            "templates": [
+                {
+                    "source": "templates\/working-gallery.json",
+                    "name": "Working Gallery"
+                }
+            ],
+            "filesize": 229889,
+            "dimensions": [
+                2000,
+                1306
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-KARLYTC"
+        },
+        {
+            "filename": "modern-house-with-photovoltaic-system-2.jpg",
+            "thumbnail_url": "https:\/\/ngecorkit.nirmanavisual.com\/wp-content\/uploads\/2021\/06\/modern-house-with-photovoltaic-system-2-800x514.jpg",
+            "templates": [
+                {
+                    "source": "templates\/working-gallery.json",
+                    "name": "Working Gallery"
+                },
+                {
+                    "source": "templates\/detail-portfolio.json",
+                    "name": "Detail Portfolio"
+                },
+                {
+                    "source": "templates\/portfolio.json",
+                    "name": "Portfolio"
+                }
+            ],
+            "filesize": 184246,
+            "dimensions": [
+                1000,
+                643
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-8NGJ8GU"
+        },
+        {
+            "filename": "apartment-with-the-fireplace-1.jpg",
+            "thumbnail_url": "https:\/\/ngecorkit.nirmanavisual.com\/wp-content\/uploads\/2021\/06\/apartment-with-the-fireplace-1-800x533.jpg",
+            "templates": [
+                {
+                    "source": "templates\/working-gallery.json",
+                    "name": "Working Gallery"
+                },
+                {
+                    "source": "templates\/detail-portfolio.json",
+                    "name": "Detail Portfolio"
+                },
+                {
+                    "source": "templates\/portfolio.json",
+                    "name": "Portfolio"
+                }
+            ],
+            "filesize": 189897,
+            "dimensions": [
+                2000,
+                1333
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-PTBD8DK"
+        },
+        {
+            "filename": "hotel-room-1.jpg",
+            "thumbnail_url": "https:\/\/ngecorkit.nirmanavisual.com\/wp-content\/uploads\/2021\/06\/hotel-room-1-800x533.jpg",
+            "templates": [
+                {
+                    "source": "templates\/working-gallery.json",
+                    "name": "Working Gallery"
+                },
+                {
+                    "source": "templates\/detail-portfolio.json",
+                    "name": "Detail Portfolio"
+                },
+                {
+                    "source": "templates\/portfolio.json",
+                    "name": "Portfolio"
+                }
+            ],
+            "filesize": 192146,
+            "dimensions": [
+                2000,
+                1333
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-P8NCR59"
+        },
+        {
+            "filename": "mature-man-construction-worker-at-the-construction-site-in-the-c-2.jpg",
+            "thumbnail_url": "https:\/\/ngecorkit.nirmanavisual.com\/wp-content\/uploads\/2021\/06\/mature-man-construction-worker-at-the-construction-site-in-the-c-2-800x534.jpg",
+            "templates": [
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About Us"
+                },
+                {
+                    "source": "templates\/home-2.json",
+                    "name": "Home 2"
+                }
+            ],
+            "filesize": 103941,
+            "dimensions": [
+                2000,
+                1335
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-JJGLT74"
+        },
+        {
+            "filename": "construction-engineers-discussion-with-architects-at-construction-site-1.jpg",
+            "thumbnail_url": "https:\/\/ngecorkit.nirmanavisual.com\/wp-content\/uploads\/2021\/06\/construction-engineers-discussion-with-architects-at-construction-site-1-800x422.jpg",
+            "templates": [
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About Us"
+                }
+            ],
+            "filesize": 154800,
+            "dimensions": [
+                2000,
+                1055
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-Q6R7XW3"
+        },
+        {
+            "filename": "mature-man-construction-worker-at-the-construction-site-in-the-c-1-1.jpg",
+            "thumbnail_url": "https:\/\/ngecorkit.nirmanavisual.com\/wp-content\/uploads\/2021\/06\/mature-man-construction-worker-at-the-construction-site-in-the-c-1-1-800x1199.jpg",
+            "templates": [
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About Us"
+                }
+            ],
+            "filesize": 110069,
+            "dimensions": [
+                1335,
+                2000
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-FTLJFW5"
+        },
+        {
+            "filename": "construction-worker-in-respirator-1.jpg",
+            "thumbnail_url": "https:\/\/ngecorkit.nirmanavisual.com\/wp-content\/uploads\/2021\/06\/construction-worker-in-respirator-1-800x1200.jpg",
+            "templates": [
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About Us"
+                }
+            ],
+            "filesize": 138151,
+            "dimensions": [
+                1333,
+                2000
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-HDLJQCS"
+        },
+        {
+            "filename": "close-up-portrait-of-a-construction-builder-1.jpg",
+            "thumbnail_url": "https:\/\/ngecorkit.nirmanavisual.com\/wp-content\/uploads\/2021\/06\/close-up-portrait-of-a-construction-builder-1-800x1200.jpg",
+            "templates": [
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About Us"
+                }
+            ],
+            "filesize": 168117,
+            "dimensions": [
+                1333,
+                2000
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-PPSLV5U"
+        },
+        {
+            "filename": "portrait-of-a-female-engineer-manager-business-people-in-construction-project-1.jpg",
+            "thumbnail_url": "https:\/\/ngecorkit.nirmanavisual.com\/wp-content\/uploads\/2021\/06\/portrait-of-a-female-engineer-manager-business-people-in-construction-project-1-800x1199.jpg",
+            "templates": [
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About Us"
+                }
+            ],
+            "filesize": 91678,
+            "dimensions": [
+                1335,
+                2000
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-CZ34YBN"
+        },
+        {
+            "filename": "portrait-of-construction-worker-1.jpg",
+            "thumbnail_url": "https:\/\/ngecorkit.nirmanavisual.com\/wp-content\/uploads\/2021\/06\/portrait-of-construction-worker-1-800x1199.jpg",
+            "templates": [
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About Us"
+                }
+            ],
+            "filesize": 174233,
+            "dimensions": [
+                1334,
+                2000
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-Q7LTXR8"
+        }
+    ]
+}

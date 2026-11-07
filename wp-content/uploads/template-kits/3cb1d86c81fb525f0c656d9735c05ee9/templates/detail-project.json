@@ -1,0 +1,708 @@
+{
+    "version": "0.4",
+    "title": "Detail Project",
+    "type": "page",
+    "metadata": {
+        "template_type": "single-page",
+        "include_in_zip": "1",
+        "elementor_pro_required": null,
+        "wp_page_template": "elementor_header_footer"
+    },
+    "content": [
+        {
+            "id": "4dc93bda",
+            "settings": {
+                "content_width": {
+                    "unit": "px",
+                    "size": 800,
+                    "sizes": []
+                },
+                "padding": {
+                    "unit": "px",
+                    "top": "225",
+                    "right": "50",
+                    "bottom": "200",
+                    "left": "50",
+                    "isLinked": false
+                },
+                "padding_tablet": {
+                    "unit": "px",
+                    "top": "175",
+                    "right": "15",
+                    "bottom": "150",
+                    "left": "15",
+                    "isLinked": false
+                },
+                "custom_height": {
+                    "unit": "px",
+                    "size": 600,
+                    "sizes": []
+                },
+                "background_background": "classic",
+                "background_image": {
+                    "id": "11",
+                    "url": "https:\/\/ngecorkit.nirmanavisual.com\/wp-content\/uploads\/2021\/06\/happy-architects-using-digital-tablet-at-construction-site-1.jpg"
+                },
+                "background_size": "cover",
+                "background_overlay_background": "classic",
+                "background_overlay_color": "#000000",
+                "__globals__": {
+                    "background_overlay_color": ""
+                },
+                "gap": "no",
+                "background_attachment": "fixed"
+            },
+            "elements": [
+                {
+                    "id": "5c127e08",
+                    "settings": {
+                        "_column_size": 100,
+                        "_inline_size": null
+                    },
+                    "elements": [
+                        {
+                            "id": "3c2a4c03",
+                            "settings": {
+                                "page_custom_link": "none",
+                                "heading_tag": "h1",
+                                "align": "center",
+                                "title_color": "#FFFFFF"
+                            },
+                            "elements": [],
+                            "isInner": false,
+                            "widgetType": "page-title",
+                            "elType": "widget"
+                        },
+                        {
+                            "id": "6f9ee7b2",
+                            "settings": {
+                                "text_color": "#FFFFFF",
+                                "align": "center"
+                            },
+                            "elements": [],
+                            "isInner": false,
+                            "widgetType": "text-editor",
+                            "elType": "widget"
+                        }
+                    ],
+                    "isInner": false,
+                    "elType": "column"
+                }
+            ],
+            "isInner": false,
+            "elType": "section"
+        },
+        {
+            "id": "53954460",
+            "settings": {
+                "content_width": {
+                    "unit": "px",
+                    "size": 1440,
+                    "sizes": []
+                },
+                "padding": {
+                    "unit": "px",
+                    "top": "0",
+                    "right": "50",
+                    "bottom": "100",
+                    "left": "50",
+                    "isLinked": false
+                },
+                "padding_tablet": {
+                    "unit": "px",
+                    "top": "0",
+                    "right": "15",
+                    "bottom": "50",
+                    "left": "15",
+                    "isLinked": false
+                },
+                "gap": "no",
+                "animation": "fadeIn"
+            },
+            "elements": [
+                {
+                    "id": "671740cd",
+                    "settings": {
+                        "_column_size": 100,
+                        "_inline_size": null
+                    },
+                    "elements": [
+                        {
+                            "id": "3385b314",
+                            "settings": {
+                                "gap": "no",
+                                "margin": {
+                                    "unit": "px",
+                                    "top": "-100",
+                                    "right": 0,
+                                    "bottom": "0",
+                                    "left": 0,
+                                    "isLinked": false
+                                }
+                            },
+                            "elements": [
+                                {
+                                    "id": "6ced06da",
+                                    "settings": {
+                                        "_column_size": 100,
+                                        "_inline_size": null
+                                    },
+                                    "elements": [
+                                        {
+                                            "id": "4c62276",
+                                            "settings": {
+                                                "image": {
+                                                    "id": "17",
+                                                    "url": "https:\/\/ngecorkit.nirmanavisual.com\/wp-content\/uploads\/2021\/06\/apartment-interior-in-white-and-blue-1.jpg"
+                                                },
+                                                "width": {
+                                                    "unit": "%",
+                                                    "size": 100,
+                                                    "sizes": []
+                                                },
+                                                "space": {
+                                                    "unit": "%",
+                                                    "size": 100,
+                                                    "sizes": []
+                                                }
+                                            },
+                                            "elements": [],
+                                            "isInner": false,
+                                            "widgetType": "image",
+                                            "elType": "widget"
+                                        },
+                                        {
+                                            "id": "723385db",
+                                            "settings": {
+                                                "carousel": [
+                                                    {
+                                                        "id": "15",
+                                                        "url": "https:\/\/ngecorkit.nirmanavisual.com\/wp-content\/uploads\/2021\/06\/hotel-room-1-1.jpg"
+                                                    },
+                                                    {
+                                                        "id": "17",
+                                                        "url": "https:\/\/ngecorkit.nirmanavisual.com\/wp-content\/uploads\/2021\/06\/apartment-interior-in-white-and-blue-1.jpg"
+                                                    },
+                                                    {
+                                                        "id": "19",
+                                                        "url": "https:\/\/ngecorkit.nirmanavisual.com\/wp-content\/uploads\/2021\/06\/3d-rendering-modern-house-with-terrace-at-night-1.jpg"
+                                                    },
+                                                    {
+                                                        "id": "13",
+                                                        "url": "https:\/\/ngecorkit.nirmanavisual.com\/wp-content\/uploads\/2021\/06\/road-construction-business-1.jpg"
+                                                    }
+                                                ],
+                                                "thumbnail_size": "custom",
+                                                "thumbnail_custom_dimension": {
+                                                    "width": "500",
+                                                    "height": "500"
+                                                },
+                                                "slides_to_show": "4",
+                                                "slides_to_show_tablet": "3",
+                                                "slides_to_show_mobile": "3",
+                                                "dots_size": {
+                                                    "unit": "px",
+                                                    "size": 10,
+                                                    "sizes": []
+                                                },
+                                                "dots_color": "#FF4D00",
+                                                "image_spacing": "custom",
+                                                "__globals__": {
+                                                    "dots_color": ""
+                                                }
+                                            },
+                                            "elements": [],
+                                            "isInner": false,
+                                            "widgetType": "image-carousel",
+                                            "elType": "widget"
+                                        }
+                                    ],
+                                    "isInner": true,
+                                    "elType": "column"
+                                }
+                            ],
+                            "isInner": true,
+                            "elType": "section"
+                        },
+                        {
+                            "id": "df2efe7",
+                            "settings": {
+                                "gap": "no",
+                                "margin": {
+                                    "unit": "px",
+                                    "top": "50",
+                                    "right": 0,
+                                    "bottom": "0",
+                                    "left": 0,
+                                    "isLinked": false
+                                },
+                                "margin_tablet": {
+                                    "unit": "px",
+                                    "top": "25",
+                                    "right": 0,
+                                    "bottom": "0",
+                                    "left": 0,
+                                    "isLinked": false
+                                }
+                            },
+                            "elements": [
+                                {
+                                    "id": "20f50892",
+                                    "settings": {
+                                        "_column_size": 100,
+                                        "_inline_size": null,
+                                        "align": "flex-start",
+                                        "padding": {
+                                            "unit": "px",
+                                            "top": "0",
+                                            "right": "0",
+                                            "bottom": "0",
+                                            "left": "0",
+                                            "isLinked": false
+                                        }
+                                    },
+                                    "elements": [
+                                        {
+                                            "id": "18c53c55",
+                                            "settings": {
+                                                "title": "Medium Hotel Building Project"
+                                            },
+                                            "elements": [],
+                                            "isInner": false,
+                                            "widgetType": "heading",
+                                            "elType": "widget"
+                                        },
+                                        {
+                                            "id": "135cba26",
+                                            "settings": {
+                                                "text": "Divider",
+                                                "color": "#DADADA",
+                                                "gap": {
+                                                    "unit": "px",
+                                                    "size": 5,
+                                                    "sizes": []
+                                                }
+                                            },
+                                            "elements": [],
+                                            "isInner": false,
+                                            "widgetType": "divider",
+                                            "elType": "widget"
+                                        },
+                                        {
+                                            "id": "642deb85",
+                                            "settings": {
+                                                "title": "$150000",
+                                                "header_size": "h3",
+                                                "title_color": "#FFFFFF",
+                                                "_margin": {
+                                                    "unit": "px",
+                                                    "top": "0",
+                                                    "right": "0",
+                                                    "bottom": "20",
+                                                    "left": "0",
+                                                    "isLinked": false
+                                                },
+                                                "_padding": {
+                                                    "unit": "px",
+                                                    "top": "10",
+                                                    "right": "10",
+                                                    "bottom": "10",
+                                                    "left": "10",
+                                                    "isLinked": true
+                                                },
+                                                "_background_background": "classic",
+                                                "_background_color": "#FF4D00",
+                                                "_element_width": "auto",
+                                                "__globals__": {
+                                                    "title_color": "",
+                                                    "_background_color": ""
+                                                }
+                                            },
+                                            "elements": [],
+                                            "isInner": false,
+                                            "widgetType": "heading",
+                                            "elType": "widget"
+                                        },
+                                        {
+                                            "id": "253dddac",
+                                            "settings": {
+                                                "editor": "<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.\u00a0<\/p><p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.\u00a0<\/p>"
+                                            },
+                                            "elements": [],
+                                            "isInner": false,
+                                            "widgetType": "text-editor",
+                                            "elType": "widget"
+                                        },
+                                        {
+                                            "id": "53aade29",
+                                            "settings": {
+                                                "icon_list": [
+                                                    {
+                                                        "text": "3 Stars Hotel Facility",
+                                                        "_id": "f5e0cb0"
+                                                    },
+                                                    {
+                                                        "text": "25+ Hotel Rooms",
+                                                        "_id": "8af826d"
+                                                    },
+                                                    {
+                                                        "text": "Free Meeting Office",
+                                                        "_id": "3f6b913"
+                                                    },
+                                                    {
+                                                        "text": "Free Meeting Office",
+                                                        "_id": "436f5a4"
+                                                    }
+                                                ],
+                                                "space_between": {
+                                                    "unit": "px",
+                                                    "size": 15,
+                                                    "sizes": []
+                                                },
+                                                "icon_color": "#FF4D00",
+                                                "icon_size": {
+                                                    "unit": "px",
+                                                    "size": 20,
+                                                    "sizes": []
+                                                },
+                                                "_margin_mobile": {
+                                                    "unit": "px",
+                                                    "top": "0",
+                                                    "right": "0",
+                                                    "bottom": "15",
+                                                    "left": "0",
+                                                    "isLinked": false
+                                                },
+                                                "_element_width": "initial",
+                                                "_element_width_mobile": "inherit",
+                                                "_element_custom_width": {
+                                                    "unit": "%",
+                                                    "size": 50,
+                                                    "sizes": []
+                                                },
+                                                "__globals__": {
+                                                    "icon_color": ""
+                                                }
+                                            },
+                                            "elements": [],
+                                            "isInner": false,
+                                            "widgetType": "icon-list",
+                                            "elType": "widget"
+                                        },
+                                        {
+                                            "id": "21b6a82c",
+                                            "settings": {
+                                                "icon_list": [
+                                                    {
+                                                        "text": "3 Stars Hotel Facility",
+                                                        "_id": "f5e0cb0"
+                                                    },
+                                                    {
+                                                        "text": "25+ Hotel Rooms",
+                                                        "_id": "8af826d"
+                                                    },
+                                                    {
+                                                        "text": "Free Meeting Office",
+                                                        "_id": "3f6b913"
+                                                    },
+                                                    {
+                                                        "text": "Free Meeting Office",
+                                                        "_id": "436f5a4"
+                                                    }
+                                                ],
+                                                "space_between": {
+                                                    "unit": "px",
+                                                    "size": 15,
+                                                    "sizes": []
+                                                },
+                                                "icon_color": "#FF4D00",
+                                                "icon_size": {
+                                                    "unit": "px",
+                                                    "size": 20,
+                                                    "sizes": []
+                                                },
+                                                "_element_width": "initial",
+                                                "_element_width_mobile": "inherit",
+                                                "_element_custom_width": {
+                                                    "unit": "%",
+                                                    "size": 50,
+                                                    "sizes": []
+                                                },
+                                                "__globals__": {
+                                                    "icon_color": ""
+                                                }
+                                            },
+                                            "elements": [],
+                                            "isInner": false,
+                                            "widgetType": "icon-list",
+                                            "elType": "widget"
+                                        }
+                                    ],
+                                    "isInner": true,
+                                    "elType": "column"
+                                }
+                            ],
+                            "isInner": true,
+                            "elType": "section"
+                        },
+                        {
+                            "id": "34f6fab1",
+                            "settings": {
+                                "gap": "no",
+                                "margin": {
+                                    "unit": "px",
+                                    "top": "50",
+                                    "right": 0,
+                                    "bottom": "0",
+                                    "left": 0,
+                                    "isLinked": false
+                                },
+                                "margin_tablet": {
+                                    "unit": "px",
+                                    "top": "25",
+                                    "right": 0,
+                                    "bottom": "0",
+                                    "left": 0,
+                                    "isLinked": false
+                                }
+                            },
+                            "elements": [
+                                {
+                                    "id": "b500ecf",
+                                    "settings": {
+                                        "_column_size": 100,
+                                        "_inline_size": null
+                                    },
+                                    "elements": [
+                                        {
+                                            "id": "506c0b59",
+                                            "settings": {
+                                                "title": "Frequently Asked Question"
+                                            },
+                                            "elements": [],
+                                            "isInner": false,
+                                            "widgetType": "heading",
+                                            "elType": "widget"
+                                        },
+                                        {
+                                            "id": "2143a949",
+                                            "settings": {
+                                                "text": "Divider",
+                                                "color": "#DADADA",
+                                                "gap": {
+                                                    "unit": "px",
+                                                    "size": 5,
+                                                    "sizes": []
+                                                }
+                                            },
+                                            "elements": [],
+                                            "isInner": false,
+                                            "widgetType": "divider",
+                                            "elType": "widget"
+                                        },
+                                        {
+                                            "id": "3d9b3e66",
+                                            "settings": {
+                                                "ekit_faq_content_items": [
+                                                    {
+                                                        "ekit_faq_title": "How To I Get Business ?",
+                                                        "ekit_faq_content": "Far far away, behind the word Mountains far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmark",
+                                                        "_id": "d617ef5"
+                                                    },
+                                                    {
+                                                        "ekit_faq_title": "How Long This Project Complete ?",
+                                                        "ekit_faq_content": "Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line",
+                                                        "_id": "78b5934"
+                                                    },
+                                                    {
+                                                        "ekit_faq_title": "How To I Can Call Director ?",
+                                                        "ekit_faq_content": "Marks and devious Semikoli but the Little Blind Text didn\u2019t listen. She packed her seven versalia, put her initial into the belt and made herself on the way.",
+                                                        "_id": "22c6251"
+                                                    }
+                                                ],
+                                                "ekit_faq_title_background_group_background": "classic",
+                                                "ekit_faq_title_background_group_color": "#F3F3F3",
+                                                "_padding": {
+                                                    "unit": "px",
+                                                    "top": "0",
+                                                    "right": "25",
+                                                    "bottom": "0",
+                                                    "left": "0",
+                                                    "isLinked": false
+                                                },
+                                                "_padding_tablet": {
+                                                    "unit": "px",
+                                                    "top": "0",
+                                                    "right": "0",
+                                                    "bottom": "0",
+                                                    "left": "0",
+                                                    "isLinked": false
+                                                },
+                                                "_element_width": "initial",
+                                                "_element_width_tablet": "inherit",
+                                                "_element_custom_width": {
+                                                    "unit": "%",
+                                                    "size": 50,
+                                                    "sizes": []
+                                                }
+                                            },
+                                            "elements": [],
+                                            "isInner": false,
+                                            "widgetType": "elementskit-faq",
+                                            "elType": "widget"
+                                        },
+                                        {
+                                            "id": "75133fa6",
+                                            "settings": {
+                                                "ekit_faq_content_items": [
+                                                    {
+                                                        "ekit_faq_title": "How Get Procces To This Project ?",
+                                                        "ekit_faq_content": "Far far away, behind the word Mountains far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmark",
+                                                        "_id": "d617ef5"
+                                                    },
+                                                    {
+                                                        "ekit_faq_title": "Where Office I Can Get Meeting ?",
+                                                        "ekit_faq_content": "Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line",
+                                                        "_id": "78b5934"
+                                                    },
+                                                    {
+                                                        "ekit_faq_title": "What Price Can Get Negotiation ?",
+                                                        "ekit_faq_content": "Marks and devious Semikoli but the Little Blind Text didn\u2019t listen. She packed her seven versalia, put her initial into the belt and made herself on the way.",
+                                                        "_id": "22c6251"
+                                                    }
+                                                ],
+                                                "ekit_faq_title_background_group_background": "classic",
+                                                "ekit_faq_title_background_group_color": "#F3F3F3",
+                                                "_padding": {
+                                                    "unit": "px",
+                                                    "top": "0",
+                                                    "right": "0",
+                                                    "bottom": "0",
+                                                    "left": "25",
+                                                    "isLinked": false
+                                                },
+                                                "_padding_tablet": {
+                                                    "unit": "px",
+                                                    "top": "0",
+                                                    "right": "0",
+                                                    "bottom": "0",
+                                                    "left": "0",
+                                                    "isLinked": false
+                                                },
+                                                "_element_width": "initial",
+                                                "_element_width_tablet": "inherit",
+                                                "_element_custom_width": {
+                                                    "unit": "%",
+                                                    "size": 50,
+                                                    "sizes": []
+                                                }
+                                            },
+                                            "elements": [],
+                                            "isInner": false,
+                                            "widgetType": "elementskit-faq",
+                                            "elType": "widget"
+                                        }
+                                    ],
+                                    "isInner": true,
+                                    "elType": "column"
+                                }
+                            ],
+                            "isInner": true,
+                            "elType": "section"
+                        },
+                        {
+                            "id": "332c901f",
+                            "settings": {
+                                "gap": "no",
+                                "margin": {
+                                    "unit": "px",
+                                    "top": "50",
+                                    "right": 0,
+                                    "bottom": "0",
+                                    "left": 0,
+                                    "isLinked": false
+                                },
+                                "margin_tablet": {
+                                    "unit": "px",
+                                    "top": "25",
+                                    "right": 0,
+                                    "bottom": "0",
+                                    "left": 0,
+                                    "isLinked": false
+                                },
+                                "margin_mobile": {
+                                    "unit": "px",
+                                    "top": "",
+                                    "right": 0,
+                                    "bottom": "",
+                                    "left": 0,
+                                    "isLinked": true
+                                }
+                            },
+                            "elements": [
+                                {
+                                    "id": "b8e28a4",
+                                    "settings": {
+                                        "_column_size": 100,
+                                        "_inline_size": null
+                                    },
+                                    "elements": [
+                                        {
+                                            "id": "418d8878",
+                                            "settings": {
+                                                "title": "Lets Get Quotation"
+                                            },
+                                            "elements": [],
+                                            "isInner": false,
+                                            "widgetType": "heading",
+                                            "elType": "widget"
+                                        },
+                                        {
+                                            "id": "34dbb4e5",
+                                            "settings": {
+                                                "text": "Divider",
+                                                "color": "#DADADA",
+                                                "gap": {
+                                                    "unit": "px",
+                                                    "size": 5,
+                                                    "sizes": []
+                                                }
+                                            },
+                                            "elements": [],
+                                            "isInner": false,
+                                            "widgetType": "divider",
+                                            "elType": "widget"
+                                        },
+                                        {
+                                            "id": "1bee26f1",
+                                            "settings": {
+                                                "mf_form_id": "197***1624260414853"
+                                            },
+                                            "elements": [],
+                                            "isInner": false,
+                                            "widgetType": "metform",
+                                            "elType": "widget"
+                                        }
+                                    ],
+                                    "isInner": true,
+                                    "elType": "column"
+                                }
+                            ],
+                            "isInner": true,
+                            "elType": "section"
+                        }
+                    ],
+                    "isInner": false,
+                    "elType": "column"
+                }
+            ],
+            "isInner": false,
+            "elType": "section"
+        }
+    ],
+    "page_settings": {
+        "ha_grid_zindex": "1000",
+        "eael_ext_toc_title": "Table of Contents",
+        "template": "elementor_header_footer"
+    }
+}

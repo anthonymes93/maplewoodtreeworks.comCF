@@ -1,0 +1,350 @@
+{
+    "version": "0.4",
+    "title": "Portfolio",
+    "type": "page",
+    "metadata": {
+        "template_type": "single-page",
+        "include_in_zip": "1",
+        "elementor_pro_required": null,
+        "wp_page_template": "elementor_header_footer"
+    },
+    "content": [
+        {
+            "id": "3dab99f2",
+            "settings": {
+                "content_width": {
+                    "unit": "px",
+                    "size": 800,
+                    "sizes": []
+                },
+                "padding": {
+                    "unit": "px",
+                    "top": "225",
+                    "right": "50",
+                    "bottom": "100",
+                    "left": "50",
+                    "isLinked": false
+                },
+                "padding_tablet": {
+                    "unit": "px",
+                    "top": "175",
+                    "right": "15",
+                    "bottom": "50",
+                    "left": "15",
+                    "isLinked": false
+                },
+                "custom_height": {
+                    "unit": "px",
+                    "size": 600,
+                    "sizes": []
+                },
+                "background_background": "classic",
+                "background_image": {
+                    "id": "11",
+                    "url": "https:\/\/ngecorkit.nirmanavisual.com\/wp-content\/uploads\/2021\/06\/happy-architects-using-digital-tablet-at-construction-site-1.jpg"
+                },
+                "background_size": "cover",
+                "background_overlay_background": "classic",
+                "background_overlay_color": "#000000",
+                "__globals__": {
+                    "background_overlay_color": ""
+                },
+                "gap": "no",
+                "background_attachment": "fixed"
+            },
+            "elements": [
+                {
+                    "id": "1ed4af1c",
+                    "settings": {
+                        "_column_size": 100,
+                        "_inline_size": null
+                    },
+                    "elements": [
+                        {
+                            "id": "34022e12",
+                            "settings": {
+                                "page_custom_link": "none",
+                                "heading_tag": "h1",
+                                "align": "center",
+                                "title_color": "#FFFFFF"
+                            },
+                            "elements": [],
+                            "isInner": false,
+                            "widgetType": "page-title",
+                            "elType": "widget"
+                        },
+                        {
+                            "id": "47809a51",
+                            "settings": {
+                                "text_color": "#FFFFFF",
+                                "align": "center"
+                            },
+                            "elements": [],
+                            "isInner": false,
+                            "widgetType": "text-editor",
+                            "elType": "widget"
+                        }
+                    ],
+                    "isInner": false,
+                    "elType": "column"
+                }
+            ],
+            "isInner": false,
+            "elType": "section"
+        },
+        {
+            "id": "3ce70173",
+            "settings": {
+                "content_width": {
+                    "unit": "px",
+                    "size": 1440,
+                    "sizes": []
+                },
+                "padding": {
+                    "unit": "px",
+                    "top": "100",
+                    "right": "50",
+                    "bottom": "100",
+                    "left": "50",
+                    "isLinked": false
+                },
+                "padding_tablet": {
+                    "unit": "px",
+                    "top": "50",
+                    "right": "15",
+                    "bottom": "50",
+                    "left": "15",
+                    "isLinked": false
+                },
+                "gap": "no",
+                "animation": "fadeIn"
+            },
+            "elements": [
+                {
+                    "id": "1a1c8cb",
+                    "settings": {
+                        "_column_size": 100,
+                        "_inline_size": null
+                    },
+                    "elements": [
+                        {
+                            "id": "42fa2728",
+                            "settings": {
+                                "eael_fg_items_to_show": 6,
+                                "eael_fg_filter_duration": 500,
+                                "eael_fg_grid_item_height": "300",
+                                "eael_fg_all_label_text": "All",
+                                "eael_fg_controls": [
+                                    {
+                                        "eael_fg_control": "Hotels Building",
+                                        "_id": "f248e68"
+                                    },
+                                    {
+                                        "eael_fg_control": "Apartments Building",
+                                        "_id": "0cf4fd1"
+                                    },
+                                    {
+                                        "eael_fg_control": "Modern House Building",
+                                        "_id": "daff770"
+                                    }
+                                ],
+                                "eael_fg_gallery_items": [
+                                    {
+                                        "eael_fg_gallery_item_name": "Medium Hotel Building",
+                                        "_id": "af52f8f",
+                                        "eael_fg_gallery_item_video_link": "https:\/\/www.youtube.com\/watch?v=kB4U67tiQLA",
+                                        "fg_item_price": "$20.00",
+                                        "fg_item_ratings": "5",
+                                        "fg_item_cat": "Essential Addons",
+                                        "eael_fg_gallery_control_name": "Hotels Building",
+                                        "eael_fg_gallery_img": {
+                                            "id": "15",
+                                            "url": "https:\/\/ngecorkit.nirmanavisual.com\/wp-content\/uploads\/2021\/06\/hotel-room-1-1.jpg"
+                                        },
+                                        "fg_video_gallery_play_icon": {
+                                            "id": 87,
+                                            "url": "https:\/\/ngecorkit.nirmanavisual.com\/wp-content\/uploads\/2021\/06\/play-icon.png"
+                                        }
+                                    },
+                                    {
+                                        "eael_fg_gallery_item_name": "Starter Hotel Building",
+                                        "eael_fg_gallery_item_video_link": "https:\/\/www.youtube.com\/watch?v=kB4U67tiQLA",
+                                        "fg_item_price": "$20.00",
+                                        "fg_item_ratings": "5",
+                                        "fg_item_cat": "Essential Addons",
+                                        "eael_fg_gallery_control_name": "Hotels Building",
+                                        "eael_fg_gallery_img": {
+                                            "id": "18",
+                                            "url": "https:\/\/ngecorkit.nirmanavisual.com\/wp-content\/uploads\/2021\/06\/hotel-room-1.jpg"
+                                        },
+                                        "_id": "7daab9a",
+                                        "fg_video_gallery_play_icon": {
+                                            "id": 88,
+                                            "url": "https:\/\/ngecorkit.nirmanavisual.com\/wp-content\/uploads\/2021\/06\/play-icon-1.png"
+                                        }
+                                    },
+                                    {
+                                        "eael_fg_gallery_item_name": "Medium Apartment Building",
+                                        "eael_fg_gallery_item_video_link": "https:\/\/www.youtube.com\/watch?v=kB4U67tiQLA",
+                                        "fg_item_price": "$20.00",
+                                        "fg_item_ratings": "5",
+                                        "fg_item_cat": "Essential Addons",
+                                        "eael_fg_gallery_control_name": "Apartments Building",
+                                        "eael_fg_gallery_img": {
+                                            "id": "17",
+                                            "url": "https:\/\/ngecorkit.nirmanavisual.com\/wp-content\/uploads\/2021\/06\/apartment-interior-in-white-and-blue-1.jpg"
+                                        },
+                                        "_id": "3d6c3b0",
+                                        "fg_video_gallery_play_icon": {
+                                            "id": 89,
+                                            "url": "https:\/\/ngecorkit.nirmanavisual.com\/wp-content\/uploads\/2021\/06\/play-icon-2.png"
+                                        }
+                                    },
+                                    {
+                                        "eael_fg_gallery_item_name": "Starter Apartment Building",
+                                        "eael_fg_gallery_item_video_link": "https:\/\/www.youtube.com\/watch?v=kB4U67tiQLA",
+                                        "fg_item_price": "$20.00",
+                                        "fg_item_ratings": "5",
+                                        "fg_item_cat": "Essential Addons",
+                                        "eael_fg_gallery_control_name": "Apartments Building",
+                                        "eael_fg_gallery_img": {
+                                            "id": "16",
+                                            "url": "https:\/\/ngecorkit.nirmanavisual.com\/wp-content\/uploads\/2021\/06\/apartment-with-the-fireplace-1.jpg"
+                                        },
+                                        "_id": "1012b76",
+                                        "fg_video_gallery_play_icon": {
+                                            "id": 90,
+                                            "url": "https:\/\/ngecorkit.nirmanavisual.com\/wp-content\/uploads\/2021\/06\/play-icon-3.png"
+                                        }
+                                    },
+                                    {
+                                        "eael_fg_gallery_item_name": "Medium House Building",
+                                        "eael_fg_gallery_item_video_link": "https:\/\/www.youtube.com\/watch?v=kB4U67tiQLA",
+                                        "fg_item_price": "$20.00",
+                                        "fg_item_ratings": "5",
+                                        "fg_item_cat": "Essential Addons",
+                                        "eael_fg_gallery_control_name": "Modern House Building",
+                                        "eael_fg_gallery_img": {
+                                            "id": "19",
+                                            "url": "https:\/\/ngecorkit.nirmanavisual.com\/wp-content\/uploads\/2021\/06\/3d-rendering-modern-house-with-terrace-at-night-1.jpg"
+                                        },
+                                        "_id": "2a15ce3",
+                                        "fg_video_gallery_play_icon": {
+                                            "id": 91,
+                                            "url": "https:\/\/ngecorkit.nirmanavisual.com\/wp-content\/uploads\/2021\/06\/play-icon-4.png"
+                                        }
+                                    },
+                                    {
+                                        "eael_fg_gallery_item_name": "Starter House Building",
+                                        "eael_fg_gallery_item_video_link": "https:\/\/www.youtube.com\/watch?v=kB4U67tiQLA",
+                                        "fg_item_price": "$20.00",
+                                        "fg_item_ratings": "5",
+                                        "fg_item_cat": "Essential Addons",
+                                        "eael_fg_gallery_control_name": "Modern House Building",
+                                        "eael_fg_gallery_img": {
+                                            "id": 1409,
+                                            "url": "https:\/\/ngecorkit.nirmanavisual.com\/wp-content\/uploads\/2021\/06\/modern-house-with-photovoltaic-system-2.jpg"
+                                        },
+                                        "_id": "93cbee5",
+                                        "fg_video_gallery_play_icon": {
+                                            "id": 92,
+                                            "url": "https:\/\/ngecorkit.nirmanavisual.com\/wp-content\/uploads\/2021\/06\/play-icon-5.png"
+                                        }
+                                    }
+                                ],
+                                "images_per_page": 6,
+                                "load_more_text": "Load More",
+                                "nomore_items_text": "No more items!",
+                                "eael_fg_item_hoverer_content_alignment": "center",
+                                "eael_fg_video_item_icon_hover_scale": "1.1",
+                                "fg_sf_placeholder": "Search Gallery Item...",
+                                "pagination": "yes",
+                                "eael_fg_control_margin": {
+                                    "unit": "px",
+                                    "top": "0",
+                                    "right": "0",
+                                    "bottom": "25",
+                                    "left": "0",
+                                    "isLinked": false
+                                },
+                                "eael_fg_item_container_margin": {
+                                    "unit": "px",
+                                    "top": "0",
+                                    "right": "0",
+                                    "bottom": "25",
+                                    "left": "0",
+                                    "isLinked": false
+                                },
+                                "load_more_button_bg_color_normal": "#FF4D00",
+                                "button_bg_color_hover": "#272121",
+                                "button_text_color_hover": "#FF4D00",
+                                "__globals__": {
+                                    "load_more_button_bg_color_normal": "",
+                                    "button_bg_color_hover": "",
+                                    "button_text_color_hover": ""
+                                },
+                                "eael_fg_item_container_padding": {
+                                    "unit": "px",
+                                    "top": "12.5",
+                                    "right": "12.5",
+                                    "bottom": "12.5",
+                                    "left": "12.5",
+                                    "isLinked": true
+                                },
+                                "eael_fg_item_container_padding_mobile": {
+                                    "unit": "px",
+                                    "top": "12.5",
+                                    "right": "12.5",
+                                    "bottom": "12.5",
+                                    "left": "12.5",
+                                    "isLinked": true
+                                },
+                                "eael_fg_item_cap_container_padding": {
+                                    "unit": "px",
+                                    "top": "0",
+                                    "right": "50",
+                                    "bottom": "0",
+                                    "left": "50",
+                                    "isLinked": false
+                                },
+                                "eael_fg_item_cap_container_padding_mobile": {
+                                    "unit": "px",
+                                    "top": "0",
+                                    "right": "25",
+                                    "bottom": "0",
+                                    "left": "25",
+                                    "isLinked": false
+                                },
+                                "eael_fg_item_hover_title_typography_typography": "custom",
+                                "eael_fg_item_hover_title_typography_line_height": {
+                                    "unit": "em",
+                                    "size": 1.3,
+                                    "sizes": []
+                                },
+                                "eael_fg_item_hover_content_typography_typography": "custom",
+                                "eael_fg_item_hover_content_typography_line_height": {
+                                    "unit": "em",
+                                    "size": 1.5,
+                                    "sizes": []
+                                }
+                            },
+                            "elements": [],
+                            "isInner": false,
+                            "widgetType": "eael-filterable-gallery",
+                            "elType": "widget"
+                        }
+                    ],
+                    "isInner": false,
+                    "elType": "column"
+                }
+            ],
+            "isInner": false,
+            "elType": "section"
+        }
+    ],
+    "page_settings": {
+        "ha_grid_zindex": "1000",
+        "eael_ext_toc_title": "Table of Contents",
+        "template": "elementor_header_footer"
+    }
+}
